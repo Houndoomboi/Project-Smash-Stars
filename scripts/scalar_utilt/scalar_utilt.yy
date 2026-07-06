@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scalar_utilt",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scalar_utilt",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/Scalar/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

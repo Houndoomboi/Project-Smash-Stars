@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"stage_archive_init",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"stage_archive_init",
+  "parent":{
+    "name":"Archive",
+    "path":"folders/Stages/Archive.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
