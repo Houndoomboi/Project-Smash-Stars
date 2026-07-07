@@ -245,8 +245,8 @@ function character_colt_init()
 		my_attacks[$ "Uthrow"		] = basic_uthrow_combo;
 		my_attacks[$ "Dthrow"		] = basic_dthrow_combo;
 		
-		my_attacks[$ "Getup_Attack"	] = basic_getup_attack;
-		my_attacks[$ "Ledge_Attack"	] = basic_ledge_attack;
+		my_attacks[$ "Getup_Attack"	] = colt_jab;
+		my_attacks[$ "Ledge_Attack"	] = colt_jab;
 		my_attacks[$ "Item_Throw"	] = basic_item_throw;
 		my_attacks[$ "Item_Attack"	] = basic_item_attack;
 		my_attacks[$ "Taunt"		] = colt_taunt;
@@ -268,7 +268,7 @@ function character_colt_init()
 		my_sprites[$ "Run_Turn"			] = spr_colt_run;
 		my_sprites[$ "Run_Stop"			] = spr_colt_run;
 				 
-		my_sprites[$ "Jumpsquat"		] = spr_basic_jumpsquat;
+		my_sprites[$ "Jumpsquat"		] = spr_colt_crouch;
 		my_sprites[$ "Jump_Rise"		] = spr_colt_jump;
 		my_sprites[$ "Jump_Mid"			] = spr_colt_jump;
 		my_sprites[$ "Jump_Fall"		] = spr_colt_jump;
@@ -295,33 +295,33 @@ function character_colt_init()
 		my_sprites[$ "Flinch"			] = spr_colt_hit;
 		my_sprites[$ "Landing_Lag"		] = anim_define(spr_colt_crouch, anim_define(spr_colt_crouch_loop));
 		my_sprites[$ "Balloon"			] = spr_basic_balloon;
-		my_sprites[$ "Reeling"			] = spr_basic_reeling;
+		my_sprites[$ "Reeling"			] = spr_colt_hit;
 		my_sprites[$ "Knockdown"		] = anim_define_ext(spr_basic_knockdown, 2, 0.7, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
 		my_sprites[$ "Lock"				] = anim_define_ext(spr_basic_knockdown, 0, 0.5, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
 		my_sprites[$ "Getup"			] = anim_define_ext(spr_basic_getup, 0, anim_calculate_speed(spr_basic_getup, getup_active + getup_endlag));
 	
-		my_sprites[$ "Tech_Rolling"		] = spr_basic_rolling; 
-		my_sprites[$ "Teching"			] = spr_basic_teching;
-		my_sprites[$ "Teching_Wall"		] = spr_basic_teching;
-		my_sprites[$ "Teching_Ceiling"	] = spr_basic_teching;
-		my_sprites[$ "Tech_Wall_Jump"	] = spr_basic_wall_jump;
+		my_sprites[$ "Tech_Rolling"		] = spr_colt_airdodge; 
+		my_sprites[$ "Teching"			] = spr_colt_crouch_loop;
+		my_sprites[$ "Teching_Wall"		] = spr_colt_jump;
+		my_sprites[$ "Teching_Ceiling"	] = spr_colt_jump;
+		my_sprites[$ "Tech_Wall_Jump"	] = spr_colt_jump;
 				 
 		my_sprites[$ "Ledge_Snap"		] = spr_colt_ledge;
 		my_sprites[$ "Ledge_Hang"		] = spr_colt_ledge;
-		my_sprites[$ "Ledge_Getup"		] = spr_basic_ledge_getup;
-		my_sprites[$ "Ledge_Jump"		] = spr_basic_ledge_jump;
-		my_sprites[$ "Ledge_Roll"		] = spr_basic_ledge_jump;
-		my_sprites[$ "Ledge_Attack"		] = spr_basic_ledge_attack_getup;
+		my_sprites[$ "Ledge_Getup"		] = spr_colt_crouch_loop;
+		my_sprites[$ "Ledge_Jump"		] = spr_colt_jump;
+		my_sprites[$ "Ledge_Roll"		] = spr_colt_airdodge;
+		my_sprites[$ "Ledge_Attack"		] = spr_colt_lightground;
 		my_sprites[$ "Ledge_Tether"		] = anim_define_ext(spr_basic_ledge_tether, 0, 0.3, 1, 0, 1, 0, 16, true, -1);
 		my_sprites[$ "Ledge_Trump"		] = spr_basic_ledge_trump;
 		my_sprites[$ "Wall_Cling"		] = -1;
-		my_sprites[$ "Wall_Jump"		] = spr_basic_wall_jump;
+		my_sprites[$ "Wall_Jump"		] = spr_colt_jump;
 	
 		my_sprites[$ "Star_KO"			] = spr_basic_star_ko;
 		my_sprites[$ "Screen_KO"		] = spr_basic_screen_ko;
 				 
 		my_sprites[$ "Grabbing"			] = spr_basic_grabbing;
-		my_sprites[$ "Grabbed"			] = spr_basic_hitstun;
+		my_sprites[$ "Grabbed"			] = spr_colt_hit;
 		my_sprites[$ "Grab_Release"		] = anim_define(spr_colt_crouch, anim_define(spr_colt_crouch_loop));
 		}
 	}

@@ -244,8 +244,8 @@ function character_shelly_init()
 		my_attacks[$ "Uthrow"		] = basic_uthrow_combo;
 		my_attacks[$ "Dthrow"		] = basic_dthrow_combo;
 		
-		my_attacks[$ "Getup_Attack"	] = basic_getup_attack;
-		my_attacks[$ "Ledge_Attack"	] = basic_ledge_attack;
+		my_attacks[$ "Getup_Attack"	] = shelly_jab;
+		my_attacks[$ "Ledge_Attack"	] = shelly_jab;
 		my_attacks[$ "Item_Throw"	] = basic_item_throw;
 		my_attacks[$ "Item_Attack"	] = basic_item_attack;
 		my_attacks[$ "Taunt"		] = shelly_taunt;
@@ -295,14 +295,14 @@ function character_shelly_init()
 		my_sprites[$ "Landing_Lag"		] = spr_shelly_idle;
 		my_sprites[$ "Balloon"			] = spr_basic_balloon;
 		my_sprites[$ "Reeling"			] = spr_shelly_hit;
-		my_sprites[$ "Knockdown"		] = anim_define_ext(spr_basic_knockdown, 2, 0.7, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
-		my_sprites[$ "Lock"				] = anim_define_ext(spr_basic_knockdown, 0, 0.5, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
-		my_sprites[$ "Getup"			] = anim_define_ext(spr_basic_getup, 0, anim_calculate_speed(spr_basic_getup, getup_active + getup_endlag));
+		my_sprites[$ "Knockdown"		] = anim_define_ext(spr_shelly_hit, 2, 0.7, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
+		my_sprites[$ "Lock"				] = anim_define_ext(spr_shelly_hit, 0, 0.5, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
+		my_sprites[$ "Getup"			] = anim_define_ext(spr_shelly_crouchloop, 0, anim_calculate_speed(spr_shelly_idle, getup_active + getup_endlag));
 	
 		my_sprites[$ "Tech_Rolling"		] = spr_shelly_dodge; 
-		my_sprites[$ "Teching"			] = spr_basic_teching;
-		my_sprites[$ "Teching_Wall"		] = spr_basic_teching;
-		my_sprites[$ "Teching_Ceiling"	] = spr_basic_teching;
+		my_sprites[$ "Teching"			] = spr_shelly_crouchloop;
+		my_sprites[$ "Teching_Wall"		] = spr_shelly_walljump;
+		my_sprites[$ "Teching_Ceiling"	] = spr_shelly_jump;
 		my_sprites[$ "Tech_Wall_Jump"	] = spr_shelly_walljump;
 				 
 		my_sprites[$ "Ledge_Snap"		] = spr_shelly_ledge;
@@ -320,8 +320,8 @@ function character_shelly_init()
 		my_sprites[$ "Screen_KO"		] = spr_basic_screen_ko;
 				 
 		my_sprites[$ "Grabbing"			] = spr_basic_grabbing;
-		my_sprites[$ "Grabbed"			] = spr_basic_hitstun;
-		my_sprites[$ "Grab_Release"		] = spr_basic_crouch;
+		my_sprites[$ "Grabbed"			] = spr_shelly_hit;
+		my_sprites[$ "Grab_Release"		] = spr_shelly_crouchloop;
 		}
 	}
 /* Copyright 2025 Springroll Games / Yosi */

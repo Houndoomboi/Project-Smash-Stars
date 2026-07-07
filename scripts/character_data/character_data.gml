@@ -12,7 +12,7 @@ function character_data_get_all()
 			character_colt_init,
 			spr_blocky_palette,
 			spr_colt_portrait,
-			spr_blocky_css,
+			spr_colt_portrait,
 			spr_colt_portrait,
 			spr_blocky_stock,
 			spr_colt_portrait,

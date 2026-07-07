@@ -245,8 +245,8 @@ function character_spike_init()
 		my_attacks[$ "Uthrow"		] = basic_uthrow_combo;
 		my_attacks[$ "Dthrow"		] = basic_dthrow_combo;
 		
-		my_attacks[$ "Getup_Attack"	] = basic_getup_attack;
-		my_attacks[$ "Ledge_Attack"	] = basic_ledge_attack;
+		my_attacks[$ "Getup_Attack"	] = spike_jab;
+		my_attacks[$ "Ledge_Attack"	] = spike_jab;
 		my_attacks[$ "Item_Throw"	] = basic_item_throw;
 		my_attacks[$ "Item_Attack"	] = basic_item_attack;
 		my_attacks[$ "Taunt"		] = blocky_taunt;
@@ -279,18 +279,18 @@ function character_spike_init()
 		my_sprites[$ "DFastfall"		] = spr_spike_fall;
 				 
 		my_sprites[$ "Airdodge"			] = anim_define_ext(spr_spike_airdodge, 0, anim_calculate_speed(spr_spike_airdodge, airdodge_startup + airdodge_active + airdodge_endlag));
-		my_sprites[$ "Waveland"			] = spr_basic_waveland;
-		my_sprites[$ "Rolling"			] = spr_basic_rolling;
+		my_sprites[$ "Waveland"			] = spr_spike_airdodge;
+		my_sprites[$ "Rolling"			] = spr_spike_airdodge;
 		my_sprites[$ "Shield"			] = anim_define(spr_spike_block, anim_define(spr_spike_block_loop));
 		my_sprites[$ "Shield_Release"	] = spr_spike_block_loop;
 		my_sprites[$ "Shield_Break"		] = anim_define_ext(spr_basic_shield_break, 0, 0.12, 1, 0, 1, 0, 0, true, -1);
 		my_sprites[$ "Parry_Stun"		] = spr_basic_parry_stun;
-		my_sprites[$ "Spot_Dodge"		] = spr_basic_spot_dodge;
+		my_sprites[$ "Spot_Dodge"		] = spr_spike_airdodge;
 				 
 		my_sprites[$ "Hitlag"			] = spr_spike_hurt;
 		my_sprites[$ "Hitstun"			] = spr_spike_hurt;
-		my_sprites[$ "Tumble"			] = spr_basic_tumble;
-		my_sprites[$ "Helpless"			] = spr_basic_helpless;
+		my_sprites[$ "Tumble"			] = spr_spike_hurt;
+		my_sprites[$ "Helpless"			] = spr_spike_fall;
 		my_sprites[$ "Magnet"			] = spr_spike_hurt;
 		my_sprites[$ "Flinch"			] = anim_define(spr_spike_crouch, anim_define(spr_spike_crouch_loop));
 		my_sprites[$ "Landing_Lag"		] = anim_define(spr_spike_crouch, anim_define(spr_spike_crouch_loop));
