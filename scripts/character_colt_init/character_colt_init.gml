@@ -249,7 +249,7 @@ function character_colt_init()
 		my_attacks[$ "Ledge_Attack"	] = basic_ledge_attack;
 		my_attacks[$ "Item_Throw"	] = basic_item_throw;
 		my_attacks[$ "Item_Attack"	] = basic_item_attack;
-		my_attacks[$ "Taunt"		] = blocky_taunt;
+		my_attacks[$ "Taunt"		] = colt_taunt;
 		my_attacks[$ "Final_Smash"	] = blocky_final_smash;
 		}
 		

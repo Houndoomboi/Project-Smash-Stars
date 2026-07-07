@@ -248,7 +248,7 @@ function character_shelly_init()
 		my_attacks[$ "Ledge_Attack"	] = basic_ledge_attack;
 		my_attacks[$ "Item_Throw"	] = basic_item_throw;
 		my_attacks[$ "Item_Attack"	] = basic_item_attack;
-		my_attacks[$ "Taunt"		] = blocky_taunt;
+		my_attacks[$ "Taunt"		] = shelly_taunt;
 		my_attacks[$ "Final_Smash"	] = blocky_final_smash;
 		}
 		
@@ -294,7 +294,7 @@ function character_shelly_init()
 		my_sprites[$ "Flinch"			] = spr_shelly_hit;
 		my_sprites[$ "Landing_Lag"		] = spr_shelly_idle;
 		my_sprites[$ "Balloon"			] = spr_basic_balloon;
-		my_sprites[$ "Reeling"			] = spr_basic_reeling;
+		my_sprites[$ "Reeling"			] = spr_shelly_hit;
 		my_sprites[$ "Knockdown"		] = anim_define_ext(spr_basic_knockdown, 2, 0.7, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
 		my_sprites[$ "Lock"				] = anim_define_ext(spr_basic_knockdown, 0, 0.5, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
 		my_sprites[$ "Getup"			] = anim_define_ext(spr_basic_getup, 0, anim_calculate_speed(spr_basic_getup, getup_active + getup_endlag));
