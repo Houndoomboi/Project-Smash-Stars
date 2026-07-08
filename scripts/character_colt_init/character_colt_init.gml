@@ -271,8 +271,8 @@ function character_colt_init()
 		my_sprites[$ "Jumpsquat"		] = spr_colt_crouch;
 		my_sprites[$ "Jump_Rise"		] = spr_colt_jump;
 		my_sprites[$ "Jump_Mid"			] = spr_colt_jump;
-		my_sprites[$ "Jump_Fall"		] = spr_colt_jump;
-		my_sprites[$ "Fastfall"			] = spr_colt_jump;
+		my_sprites[$ "Jump_Fall"		] = spr_colt_fall;
+		my_sprites[$ "Fastfall"			] = spr_colt_fall;
 		my_sprites[$ "DJump_Rise"		] = anim_define(spr_colt_jump, anim_define(spr_colt_jump));
 		my_sprites[$ "DJump_Mid"		] = -1;
 		my_sprites[$ "DJump_Fall"		] = -1;

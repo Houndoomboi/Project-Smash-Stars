@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Colt",
-    "path":"folders/Characters/Colt.yy",
+    "name":"Sprites",
+    "path":"folders/Characters/Colt/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
