@@ -44,6 +44,15 @@ function stage_data_get_all()
 			),
 		stage_define
 			(
+			"Ranger Ranch",
+			-1,
+			rm_stage_ranch,
+			spr_stage_thumbnail_placeholder,
+			["texture_stage_desert"],
+			0,
+			),
+		stage_define
+			(
 			"Smelting Factory",
 			stage_factory_init,
 			rm_stage_factory,
