@@ -1,15 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"Object131",
+  "%Name":"obj_extras",
   "eventList":[],
   "managed":true,
-  "name":"Object131",
+  "name":"obj_extras",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Menus/General/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_ui_button",
+    "path":"objects/obj_ui_button/obj_ui_button.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"battleIcon",
-    "path":"sprites/battleIcon/battleIcon.yy",
+    "name":"extrasicon",
+    "path":"sprites/extrasicon/extrasicon.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -225,7 +225,7 @@ function character_crow_init()
 	//Attacks
 	if (_set_attacks)
 		{
-		my_attacks[$ "Jab"			] = colt_jab;
+		my_attacks[$ "Jab"			] = crow_jab;
 				 
 		my_attacks[$ "Fsmash"		] = colt_groundstrong;
 				 
@@ -245,7 +245,7 @@ function character_crow_init()
 		my_attacks[$ "Uthrow"		] = basic_uthrow_combo;
 		my_attacks[$ "Dthrow"		] = basic_dthrow_combo;
 		
-		my_attacks[$ "Getup_Attack"	] = colt_jab;
+		my_attacks[$ "Getup_Attack"	] = crow_jab;
 		my_attacks[$ "Ledge_Attack"	] = colt_jab;
 		my_attacks[$ "Item_Throw"	] = basic_item_throw;
 		my_attacks[$ "Item_Attack"	] = basic_item_attack;

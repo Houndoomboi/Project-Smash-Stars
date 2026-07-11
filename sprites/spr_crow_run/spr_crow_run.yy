@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Crow",
-    "path":"folders/Characters/Crow.yy",
+    "name":"Sprites",
+    "path":"folders/Characters/Crow/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

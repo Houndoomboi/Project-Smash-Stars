@@ -234,7 +234,7 @@ function character_shelly_init()
 		my_attacks[$ "Nspec"		] = shelly_special;
 		my_attacks[$ "Uspec"		] = shelly_airspecial;
 				 
-		my_attacks[$ "Grab"			] = basic_grab;
+		my_attacks[$ "Grab"			] = shelly_grab;
 		my_attacks[$ "Dash_Grab"	] = basic_dash_grab;
 		my_attacks[$ "Pummel"		] = basic_pummel;
 		my_attacks[$ "Zair"			] = -1;
