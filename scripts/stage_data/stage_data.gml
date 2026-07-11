@@ -27,7 +27,7 @@ function stage_data_get_all()
 		stage_define
 			(
 			"Gem Mine",
-			stage_base_init,
+			stage_gemmine_init,
 			rm_gemmine,
 			spr_stage_thumbnail_placeholder,
 			["texture_stage_desert"],

@@ -92,7 +92,7 @@
   "name":"rm_stage_peak",
   "parent":{
     "name":"Peak",
-    "path":"folders/Stages/Peak.yy",
+    "path":"folders/Stages/Islands/Peak.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

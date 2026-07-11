@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Peak",
-    "path":"folders/Stages/Peak.yy",
+    "path":"folders/Stages/Islands/Peak.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
