@@ -9,20 +9,16 @@ function stage_gemmine_init()
 	//Background sprites
 	background = 
 		[
-		background_define_script(spr_stage_gemmine_bg, -550, -275, 0.175, 0, 0, 0, 0, false, 0),
-		
-		//background_define(spr_stage_ranch_background2, 0, 64, 2, 0.1, 0.1),
-		//background_define(spr_stage_campground_trees1, 0, 118, 2, 0.2, 0.3),
-		//background_define(spr_stage_campground_trees2, 0, 158, 2, 0.5, 0.5),
+		background_define_script(spr_stage_gemmine_bg, 0, 0, 0.5, 0, 0, 0, 0, false, 0, stage_campground_distant_draw),
+		background_define(spr_stage_gemmine_bg, 0, 64, 0.5, 0.1, 0.1),
 		back_clear,
-		//background_define(spr_stage_ranch_background1, 856, 704, 2, 0, 0, 0, 0, true, 0.1),
 		];
 	
 	//Foreground sprites
 	foreground = [];
 	
 	//Music
-    stage_music_set(Mine);
+	stage_music_set(Mine);
 	
 	//Stage passive
 	callback_stage_passive = [];
@@ -40,7 +36,7 @@ function stage_gemmine_init()
 		};
 	
 	//Stage settings
-	//setting().daynight_cycle_enable = true;
+	setting().daynight_cycle_enable = false;
 	setting().stage_background_color = c_white;
 	setting().slope_collisions_enable = false;
 	setting().background_is_static = true;

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"crow_nair",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"crow_nair",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/Crow/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

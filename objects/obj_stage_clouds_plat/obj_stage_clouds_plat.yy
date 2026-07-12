@@ -11,10 +11,7 @@
     "name":"Clouds",
     "path":"folders/Stages/Clouds.yy",
   },
-  "parentObjectId":{
-    "name":"obj_platform_moving",
-    "path":"objects/obj_platform_moving/obj_platform_moving.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_plat_centered",
-    "path":"sprites/spr_plat_centered/spr_plat_centered.yy",
+    "name":"spr_stage_clouds_plat",
+    "path":"sprites/spr_stage_clouds_plat/spr_stage_clouds_plat.yy",
   },
   "spriteMaskId":null,
   "visible":true,
