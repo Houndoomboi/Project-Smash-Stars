@@ -6,7 +6,7 @@
   "name":"stage_peak_snow",
   "parent":{
     "name":"Peak",
-    "path":"folders/Stages/Peak.yy",
+    "path":"folders/Stages/Islands/Peak.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
