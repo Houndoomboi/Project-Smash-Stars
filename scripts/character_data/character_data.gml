@@ -10,7 +10,7 @@ function character_data_get_all()
 			(
 			"Colt",
 			character_colt_init,
-			spr_blocky_palette,
+			spr_colt_palette,
 			spr_colt_portraitplaceholder,
 			spr_colt_portraitplaceholder,
 			spr_colt_portraitplaceholder,
@@ -52,7 +52,7 @@ function character_data_get_all()
 			(
 			"El Primo",
 			character_elprimo_init,
-			spr_spike_palette,
+			spr_primo_palette,
 			spr_primo_portraitplaceholder,
 			spr_primo_portraitplaceholder,
 			spr_primo_portraitplaceholder,
@@ -66,7 +66,7 @@ function character_data_get_all()
 			(
 			"Crow",
 			character_crow_init,
-			spr_spike_palette,
+			spr_crow_palette,
 			spr_crow_portraitplaceholder,
 			spr_crow_portraitplaceholder,
 			spr_crow_portraitplaceholder,
