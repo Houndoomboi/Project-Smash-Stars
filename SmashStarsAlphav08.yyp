@@ -751,6 +751,8 @@
     {"id":{"name":"ds_list_re_add","path":"scripts/ds_list_re_add/ds_list_re_add.yy",},},
     {"id":{"name":"dynamic_resource_count_all","path":"scripts/dynamic_resource_count_all/dynamic_resource_count_all.yy",},},
     {"id":{"name":"dynamic_resource_count","path":"scripts/dynamic_resource_count/dynamic_resource_count.yy",},},
+    {"id":{"name":"El_Primo_Ground_Strong","path":"scripts/El_Primo_Ground_Strong/El_Primo_Ground_Strong.yy",},},
+    {"id":{"name":"El_Primo_Jab","path":"scripts/El_Primo_Jab/El_Primo_Jab.yy",},},
     {"id":{"name":"engine_init","path":"scripts/engine_init/engine_init.yy",},},
     {"id":{"name":"engine_settings","path":"scripts/engine_settings/engine_settings.yy",},},
     {"id":{"name":"entity_create","path":"scripts/entity_create/entity_create.yy",},},

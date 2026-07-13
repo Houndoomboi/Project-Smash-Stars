@@ -227,7 +227,7 @@ function character_elprimo_init()
 		{
 		my_attacks[$ "Jab"			] = colt_jab;
 				 
-		my_attacks[$ "Fsmash"		] = colt_groundstrong;
+		my_attacks[$ "Fsmash"		] = El_Primo_Ground_Strong;
 				 
 		my_attacks[$ "Nair"			] = colt_airlight;
 		my_attacks[$ "Dair"			] = colt_airstrong;
