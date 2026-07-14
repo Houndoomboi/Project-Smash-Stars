@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"battleIcon",
   "bboxMode":0,
-  "bbox_bottom":617,
+  "bbox_bottom":137,
   "bbox_left":0,
-  "bbox_right":1235,
+  "bbox_right":274,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"4775e8ad-496b-4dd1-b648-943bb384f559","name":"4775e8ad-496b-4dd1-b648-943bb384f559","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"37d577bc-962c-4662-8425-491e69830119","name":"37d577bc-962c-4662-8425-491e69830119","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":618,
+  "height":138,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"268a5e53-7375-4351-86d1-9653d8468083","blendMode":0,"displayName":"default","isLocked":false,"name":"268a5e53-7375-4351-86d1-9653d8468083","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"c9d9dc15-c78e-4c87-bf7d-2e0813ad89f5","blendMode":0,"displayName":"default","isLocked":false,"name":"c9d9dc15-c78e-4c87-bf7d-2e0813ad89f5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"battleIcon",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4775e8ad-496b-4dd1-b648-943bb384f559","path":"sprites/battleIcon/battleIcon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"134926fa-35bb-4ae8-be04-5f20222f676b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"37d577bc-962c-4662-8425-491e69830119","path":"sprites/battleIcon/battleIcon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1626b5a8-9353-41a0-b7c9-d537d04be316","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":1236,
+  "width":275,
 }
