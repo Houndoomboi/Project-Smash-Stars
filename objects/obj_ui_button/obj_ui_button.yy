@@ -125,5 +125,5 @@
     "path":"sprites/spr_white_tile/spr_white_tile.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
