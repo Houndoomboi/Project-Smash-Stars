@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":4.83265,
+  "duration":82.28571,
   "exportDir":"",
   "name":"song_default_victory",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"song_default_victory",
-  "volume":0.7,
+  "soundFile":"song_default_victory.wav",
+  "volume":1.0,
 }

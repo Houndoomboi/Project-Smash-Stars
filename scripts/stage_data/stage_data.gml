@@ -35,12 +35,12 @@ function stage_data_get_all()
 			),
 		stage_define
 			(
-			"Campground",
-			stage_campground_init,
-			rm_stage_campground,
-			spr_stage_thumbnails,
-			["texture_stage_campgrounds"],
-			3,
+			"Giftshop",
+			stage_giftshop_init,
+			rm_stage_giftshop,
+			spr_stage_thumbnail_placeholder,
+			["texture_stage_campground"],
+			0,
 			),
 		stage_define
 			(
@@ -53,12 +53,12 @@ function stage_data_get_all()
 			),
 		stage_define
 			(
-			"Smelting Factory",
-			stage_factory_init,
-			rm_stage_factory,
-			spr_stage_thumbnails,
+			"Swamp of Love",
+			stage_loveswamp_init,
+			rm_stage_loveswamp,
+			spr_stage_thumbnail_placeholder,
 			["texture_stage_factory"],
-			4,
+			0,
 			),
 		stage_define
 			(
