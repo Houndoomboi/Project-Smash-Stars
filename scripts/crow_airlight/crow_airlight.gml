@@ -23,12 +23,11 @@ function crow_airlight()
 				anim_frame = 0;
 			
 				attack_frame = 5;
-				
-				reverse_b();
+					reverse_b();
 				
 				if (on_ground())
 					{
-					speed_set(0, 0, true, false);
+					speed_set(0, 0, true, true);
 					}
 				else
 					{
@@ -39,20 +38,6 @@ function crow_airlight()
 			//Startup
 			case 0:
 				{
-				
-				var _on_ground = on_ground();
-				
-				//Speeds
-				if (_on_ground)
-					{
-					friction_gravity(ground_friction, grav, max_fall_speed);
-					}
-				else
-					{
-					aerial_drift();
-					fastfall_attack_try();
-					friction_gravity(air_friction, grav, max_fall_speed);
-					}
 				
 				if (attack_frame == 0)
 					{

@@ -37,7 +37,7 @@ function character_elprimo_init()
 	
 		//Jumping
 		jumpsquat_time = 3;
-		jump_speed = 8;
+		jump_speed = 10;
 		jump_horizontal_accel = 3;
 		shorthop_speed = 6.5;
 		double_jump_speed = 10.5;
@@ -260,7 +260,7 @@ function character_elprimo_init()
 	
 		my_sprites[$ "Entrance"			] = anim_define(spr_elprimo_idle, anim_define(spr_elprimo_idle));
 		my_sprites[$ "Idle"				] = spr_elprimo_idle;
-		my_sprites[$ "Crouch"			] = anim_define(spr_colt_crouch, anim_define(spr_colt_crouch_loop));
+		my_sprites[$ "Crouch"			] = anim_define(spr_primo_crouch, anim_define(spr_primo_crouch));
 		my_sprites[$ "Walk"				] = spr_primo_run;
 		my_sprites[$ "Walk_Turn"		] = spr_primo_run;
 		my_sprites[$ "Dash"				] = spr_primo_run;
@@ -271,9 +271,9 @@ function character_elprimo_init()
 		my_sprites[$ "Jumpsquat"		] = spr_primo_crouch;
 		my_sprites[$ "Jump_Rise"		] = spr_primo_jump;
 		my_sprites[$ "Jump_Mid"			] = spr_primo_jump;
-		my_sprites[$ "Jump_Fall"		] = spr_primo_jump;
-		my_sprites[$ "Fastfall"			] = spr_primo_jump;
-		my_sprites[$ "DJump_Rise"		] = anim_define(spr_primo_jump, anim_define(spr_primo_jump));
+		my_sprites[$ "Jump_Fall"		] = spr_primo_fall;
+		my_sprites[$ "Fastfall"			] = spr_primo_fall;
+		my_sprites[$ "DJump_Rise"		] = anim_define(spr_primo_jump, anim_define(spr_primo_fall));
 		my_sprites[$ "DJump_Mid"		] = -1;
 		my_sprites[$ "DJump_Fall"		] = -1;
 		my_sprites[$ "DFastfall"		] = -1;
@@ -281,9 +281,9 @@ function character_elprimo_init()
 		my_sprites[$ "Airdodge"			] = anim_define_ext(spr_primo_airdodge, 0, anim_calculate_speed(spr_primo_airdodge, airdodge_startup + airdodge_active + airdodge_endlag));
 		my_sprites[$ "Waveland"			] = spr_basic_waveland;
 		my_sprites[$ "Rolling"			] = spr_basic_rolling;
-		my_sprites[$ "Shield"			] = anim_define(spr_colt_shield_begin, anim_define(spr_primo_shield));
-		my_sprites[$ "Shield_Release"	] = spr_colt_Idle;
-		my_sprites[$ "Shield_Break"		] = anim_define_ext(spr_basic_shield_break, 0, 0.12, 1, 0, 1, 0, 0, true, -1);
+		my_sprites[$ "Shield"			] = anim_define(spr_primo_shield, anim_define(spr_primo_shieldloop));
+		my_sprites[$ "Shield_Release"	] = spr_elprimo_idle;
+		my_sprites[$ "Shield_Break"		] = anim_define_ext(spr_primo_hit, 0, 0.12, 1, 0, 1, 0, 0, true, -1);
 		my_sprites[$ "Parry_Stun"		] = spr_basic_parry_stun;
 		my_sprites[$ "Spot_Dodge"		] = spr_basic_spot_dodge;
 				 
