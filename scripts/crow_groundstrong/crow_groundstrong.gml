@@ -1,4 +1,4 @@
-function El_Primo_Ground_Strong()
+function crow_groundstrong()
 	{
 	//Forward Smash
 	var run = true;
@@ -19,13 +19,13 @@ function El_Primo_Ground_Strong()
 			case PHASE.start:
 				{
 				//Animation
-				anim_sprite = spr_primo_fsmash;
+				anim_sprite = spr_crow_strongground;
 				anim_frame = 0;
 				anim_speed = 0;
 		
 				charge = 0;
 		
-				attack_frame = 34;
+				attack_frame = 6;
 				return;
 				}
 			//Charging
@@ -36,8 +36,8 @@ function El_Primo_Ground_Strong()
 					{
 						anim_frame = 1;
 						attack_phase++;
-						attack_frame = 12;
-						speed_set(3 * facing, 0, false, false);
+						attack_frame = 7;
+						speed_set(3 * facing, 8, false, false);
 						}
 				break;
 				}
@@ -47,11 +47,11 @@ function El_Primo_Ground_Strong()
 					
 				if (attack_frame == 0)
 					{
-						speed_set(5 * facing, 0, false, false);
-					anim_frame = 6;
+						speed_set(0, 8, false, false);
+					anim_frame = 4;
 					attack_phase++;
 					attack_frame = 8;
-					var _hitbox = hitbox_create_melee(20, 10.5, 0.5, 0.6, 11, 5.5, 1, 23, 40, 8, SHAPE.square, 0);
+					var _hitbox = hitbox_create_melee(0, -5, 0.5, 0.6, 7, 5.5, 1, 23, 40, 8, SHAPE.square, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					_hitbox.hit_sfx = snd_hit_strong1;
 					_hitbox.shieldstun_scaling = 0.1;
@@ -65,11 +65,11 @@ function El_Primo_Ground_Strong()
 				
 				//Animation
 				if (attack_frame == 3)
-					anim_frame = 9;
+					anim_frame = 8;
 		
 				if (attack_frame == 0)
 					{
-					anim_frame = 11;
+					anim_frame = 9;
 					attack_phase++;
 					attack_frame = attack_connected() ? 20 : 30;
 					}
@@ -80,13 +80,13 @@ function El_Primo_Ground_Strong()
 				{
 				//Animation
 				if (attack_frame <= 20)
-					anim_frame = 13;
+					anim_frame = 10;
 				if (attack_frame <= 10)
-					anim_frame = 14;
+					anim_frame = 11;
 		
 				if (attack_frame == 0)
 					{
-					attack_stop(PLAYER_STATE.idle);
+					attack_stop(PLAYER_STATE.aerial);
 					run = false;
 					}
 				break;
@@ -95,6 +95,6 @@ function El_Primo_Ground_Strong()
 		}
 	
 	//Movement
-	move_grounded();
+	move();
 	}
 /* Copyright 2025 Springroll Games / Yosi */

@@ -225,7 +225,7 @@ function character_elprimo_init()
 	//Attacks
 	if (_set_attacks)
 		{
-		my_attacks[$ "Jab"			] = colt_jab;
+		my_attacks[$ "Jab"			] = El_Primo_Jab;
 				 
 		my_attacks[$ "Fsmash"		] = El_Primo_Ground_Strong;
 				 

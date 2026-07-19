@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"El_Primo_Ground_Strong",
+  "%Name":"crow_groundstrong",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"El_Primo_Ground_Strong",
+  "name":"crow_groundstrong",
   "parent":{
     "name":"Scripts",
-    "path":"folders/Characters/El Primo/Attacks/Scripts.yy",
+    "path":"folders/Characters/Crow/Attacks/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

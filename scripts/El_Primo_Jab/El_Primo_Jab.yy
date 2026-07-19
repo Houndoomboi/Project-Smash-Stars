@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"El_Primo_Jab",
   "parent":{
-    "name":"El Primo",
-    "path":"folders/Characters/El Primo.yy",
+    "name":"Scripts",
+    "path":"folders/Characters/El Primo/Attacks/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
