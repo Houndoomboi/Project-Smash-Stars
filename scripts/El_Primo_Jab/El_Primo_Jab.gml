@@ -61,11 +61,7 @@ function El_Primo_Jab()
 				//Animation
 				anim_frame = 2;
 			
-				//Cancel into tilts from first jab
-				if (allow_ground_attacks_only_tilts())
-					{
-					break;
-					}
+				
 				//Continue to next jab
 				if (input_pressed(INPUT.attack, 12)) || (attack_connected() && input_held(INPUT.attack))
 					{
@@ -114,11 +110,7 @@ function El_Primo_Jab()
 				//Animation
 				anim_frame = 8;
 			
-				//Cancel into tilts from the second jab
-				if (allow_ground_attacks_only_tilts())
-					{
-					break;
-					}
+				
 				//Continue to next jab
 				if (input_pressed(INPUT.attack, 12)) || (attack_connected() && input_held(INPUT.attack))
 					{
