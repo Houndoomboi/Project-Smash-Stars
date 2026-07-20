@@ -47,7 +47,7 @@ function crow_groundstrong()
 					
 				if (attack_frame == 0)
 					{
-						speed_set(0, 8, false, false);
+						speed_set(0, -16, false, false);
 					anim_frame = 4;
 					attack_phase++;
 					attack_frame = 8;
@@ -66,6 +66,7 @@ function crow_groundstrong()
 				//Animation
 				if (attack_frame == 3)
 					anim_frame = 8;
+					speed_set(0,8,false,false)
 		
 				if (attack_frame == 0)
 					{
