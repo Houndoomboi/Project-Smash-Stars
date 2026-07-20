@@ -241,7 +241,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2026.0.0.16",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"SmashStarsAlphav08",
   "resources":[
@@ -697,8 +697,10 @@
     {"id":{"name":"cpu_script_template","path":"scripts/cpu_script_template/cpu_script_template.yy",},},
     {"id":{"name":"crash","path":"scripts/crash/crash.yy",},},
     {"id":{"name":"crow_airlight","path":"scripts/crow_airlight/crow_airlight.yy",},},
+    {"id":{"name":"crow_airspecial","path":"scripts/crow_airspecial/crow_airspecial.yy",},},
     {"id":{"name":"crow_groundstrong","path":"scripts/crow_groundstrong/crow_groundstrong.yy",},},
     {"id":{"name":"crow_jab","path":"scripts/crow_jab/crow_jab.yy",},},
+    {"id":{"name":"crow_special","path":"scripts/crow_special/crow_special.yy",},},
     {"id":{"name":"crow_strongair","path":"scripts/crow_strongair/crow_strongair.yy",},},
     {"id":{"name":"css_can_start_match","path":"scripts/css_can_start_match/css_can_start_match.yy",},},
     {"id":{"name":"css_character_color_get_next","path":"scripts/css_character_color_get_next/css_character_color_get_next.yy",},},
@@ -1734,6 +1736,8 @@
     {"id":{"name":"spr_crow_bury","path":"sprites/spr_crow_bury/spr_crow_bury.yy",},},
     {"id":{"name":"spr_crow_crouch","path":"sprites/spr_crow_crouch/spr_crow_crouch.yy",},},
     {"id":{"name":"spr_crow_crouchloop","path":"sprites/spr_crow_crouchloop/spr_crow_crouchloop.yy",},},
+    {"id":{"name":"spr_crow_dagger","path":"sprites/spr_crow_dagger/spr_crow_dagger.yy",},},
+    {"id":{"name":"spr_crow_daggerair","path":"sprites/spr_crow_daggerair/spr_crow_daggerair.yy",},},
     {"id":{"name":"spr_crow_daggertoss","path":"sprites/spr_crow_daggertoss/spr_crow_daggertoss.yy",},},
     {"id":{"name":"spr_crow_grab","path":"sprites/spr_crow_grab/spr_crow_grab.yy",},},
     {"id":{"name":"spr_crow_hit","path":"sprites/spr_crow_hit/spr_crow_hit.yy",},},

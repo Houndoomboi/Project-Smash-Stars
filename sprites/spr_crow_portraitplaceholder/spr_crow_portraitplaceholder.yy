@@ -12,18 +12,18 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"cad6f1a0-e352-4c1a-87c7-e30582eebab8","name":"cad6f1a0-e352-4c1a-87c7-e30582eebab8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e0903cf5-1399-4bb3-9f2f-56fffa6b962e","name":"e0903cf5-1399-4bb3-9f2f-56fffa6b962e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":280,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"56900c2c-632a-4bfd-bd54-09d022ebcc89","blendMode":0,"displayName":"default","isLocked":false,"name":"56900c2c-632a-4bfd-bd54-09d022ebcc89","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"fece7059-9c9d-42e7-88f0-1f1172b02225","blendMode":0,"displayName":"default","isLocked":false,"name":"fece7059-9c9d-42e7-88f0-1f1172b02225","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_crow_portraitplaceholder",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Sprites",
     "path":"folders/Characters/Crow/Sprites.yy",
@@ -69,14 +69,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cad6f1a0-e352-4c1a-87c7-e30582eebab8","path":"sprites/spr_crow_portraitplaceholder/spr_crow_portraitplaceholder.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"86ef755c-27db-4cda-897d-56b1a3c3b4c3","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e0903cf5-1399-4bb3-9f2f-56fffa6b962e","path":"sprites/spr_crow_portraitplaceholder/spr_crow_portraitplaceholder.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1e84ae5b-92a5-4786-ace7-3b608d10967e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":140,
-    "yorigin":140,
+    "xorigin":127,
+    "yorigin":107,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

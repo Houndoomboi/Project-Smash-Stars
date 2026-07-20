@@ -232,8 +232,8 @@ function character_crow_init()
 		my_attacks[$ "Nair"			] = crow_airlight;
 		my_attacks[$ "Dair"			] = crow_strongair;
 				 
-		my_attacks[$ "Nspec"		] = colt_special;
-		my_attacks[$ "Uspec"		] = colt_airspecial;
+		my_attacks[$ "Nspec"		] = crow_special;
+		my_attacks[$ "Uspec"		] = crow_airspecial;
 				 
 		my_attacks[$ "Grab"			] = colt_grab;
 		my_attacks[$ "Dash_Grab"	] = colt_grab;
