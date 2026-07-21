@@ -241,7 +241,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2026.0.0.16",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"SmashStarsAlphav08",
   "resources":[
@@ -1915,6 +1915,7 @@
     {"id":{"name":"spr_logo_full","path":"sprites/spr_logo_full/spr_logo_full.yy",},},
     {"id":{"name":"spr_logo_text","path":"sprites/spr_logo_text/spr_logo_text.yy",},},
     {"id":{"name":"spr_main_menu_news_icon","path":"sprites/spr_main_menu_news_icon/spr_main_menu_news_icon.yy",},},
+    {"id":{"name":"spr_main_menu_strip","path":"sprites/spr_main_menu_strip/spr_main_menu_strip.yy",},},
     {"id":{"name":"spr_mario_bair","path":"sprites/spr_mario_bair/spr_mario_bair.yy",},},
     {"id":{"name":"spr_mario_fair","path":"sprites/spr_mario_fair/spr_mario_fair.yy",},},
     {"id":{"name":"spr_mario_nspec_fireball_proj","path":"sprites/spr_mario_nspec_fireball_proj/spr_mario_nspec_fireball_proj.yy",},},
