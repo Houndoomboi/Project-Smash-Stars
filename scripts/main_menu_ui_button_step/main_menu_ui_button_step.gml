@@ -1,11 +1,10 @@
-function main_menu_ui_button_step()
+function main_menu_ui_popup_step()
 	{
 	ui_button_step();
 	
-	if (ui_clicked)
+	if (ui_hovered)
 		{
-		menu_sound_play(snd_menu_alert);
-		main_menu_sidebar_choose(name);
+		popup_create();
 		}
 	}
 /* Copyright 2025 Springroll Games / Yosi */

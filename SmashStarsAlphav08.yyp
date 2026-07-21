@@ -965,6 +965,7 @@
     {"id":{"name":"main_menu_ui_credits_button_step","path":"scripts/main_menu_ui_credits_button_step/main_menu_ui_credits_button_step.yy",},},
     {"id":{"name":"main_menu_ui_news_label_step","path":"scripts/main_menu_ui_news_label_step/main_menu_ui_news_label_step.yy",},},
     {"id":{"name":"main_menu_ui_performance_mode_button_step","path":"scripts/main_menu_ui_performance_mode_button_step/main_menu_ui_performance_mode_button_step.yy",},},
+    {"id":{"name":"main_menu_ui_popup_step","path":"scripts/main_menu_ui_popup_step/main_menu_ui_popup_step.yy",},},
     {"id":{"name":"main_menu_ui_stats_label_create","path":"scripts/main_menu_ui_stats_label_create/main_menu_ui_stats_label_create.yy",},},
     {"id":{"name":"main_menu_ui_touch_controls_button_step","path":"scripts/main_menu_ui_touch_controls_button_step/main_menu_ui_touch_controls_button_step.yy",},},
     {"id":{"name":"main_menu_ui_touch_stick_type_button_step","path":"scripts/main_menu_ui_touch_stick_type_button_step/main_menu_ui_touch_stick_type_button_step.yy",},},

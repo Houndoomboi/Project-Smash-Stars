@@ -10,8 +10,8 @@
     "path":"folders/Menus/General/Objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_ui_image",
-    "path":"objects/obj_ui_image/obj_ui_image.yy",
+    "name":"obj_popup",
+    "path":"objects/obj_popup/obj_popup.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
