@@ -34,11 +34,7 @@ function shelly_airspecial()
 					attack_phase++;
 					attack_frame = 3;
 					game_sound_play(snd_swing0);
-					if (hsp * facing > 0) then speed_set(4 * facing, 0, false, true);
-					else speed_set(4 * facing, 0, true, true);
-					if (vsp > 0) then speed_set(0, -12, true, false);
-					else speed_set(0, -12, true, true);
-					for (var i = 0; i < 15; ++i)
+					speed_set(6 * facing, -14, false, false)
 					var _hitbox = hitbox_create_melee(20, 10.5, 0.5, 0.6, 11, 5.5, 1, 23, 40, 8, SHAPE.square, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					_hitbox.hit_sfx = snd_hit_strong1;
