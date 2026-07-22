@@ -57,7 +57,7 @@ function shelly_special()
 					{
 					anim_frame = 4;
 					
-					game_sound_play(snd_punch0);
+					game_sound_play(Shotgun);
 					
 					//VFX
 					var _vfx = vfx_create(spr_dust_dash_medium, 1, 0, 34, x, (bbox_bottom - 1) - 1, 2, 0, "VFX_Layer_Below");

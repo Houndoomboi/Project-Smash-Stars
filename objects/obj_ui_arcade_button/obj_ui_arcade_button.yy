@@ -1,18 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_arcadepopup",
-  "eventList":[],
+  "%Name":"obj_ui_arcade_button",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_arcadepopup",
+  "name":"obj_ui_arcade_button",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Menus/General/Objects.yy",
+    "name":"Main Menu Screen",
+    "path":"folders/Menus/Main Menu Screen.yy",
   },
-  "parentObjectId":{
-    "name":"obj_popup",
-    "path":"objects/obj_popup/obj_popup.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

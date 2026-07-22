@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_ui_button_image",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_ui_button_image",
   "overriddenProperties":[
@@ -65,10 +67,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_ui_image",
-    "path":"sprites/spr_ui_image/spr_ui_image.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

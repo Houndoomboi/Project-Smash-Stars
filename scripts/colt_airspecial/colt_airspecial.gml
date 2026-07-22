@@ -24,6 +24,7 @@ function colt_airspecial()
 				return;
 				
 				}
+				
 			//Startup
 			case 0:
 				{
@@ -50,6 +51,7 @@ function colt_airspecial()
 					_proj.overlay_angle = 270;
 					_proj.base_hitlag = 5;
 					_proj.hit_vfx_style = HIT_VFX.normal_weak;
+					game_sound_play(PistolFire);
 					}
 				break;
 				}
