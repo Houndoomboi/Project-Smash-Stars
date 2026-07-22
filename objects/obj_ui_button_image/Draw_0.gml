@@ -1,6 +1,13 @@
 draw_self();
 //place_meeting(x, y, id))
-if (position_meeting(mouse_x, mouse_y, id)) {
+var _x = -1;
+var _y = -1;
+if (ds_list_size(obj_ui_runner.cursors) > 0)
+  {
+  _x = obj_ui_runner.cursors[| 0][@ UI_CURSOR.x];
+  _y = obj_ui_runner.cursors[| 0][@ UI_CURSOR.y];
+  }
+if (position_meeting(_x, _y, id)) {
   // draw the preview stuff to the screen 
   if (sprite=arcadeicon){
 	draw_sprite(spr_arcade_trio, 0, room_width*3/4, room_height/2);
