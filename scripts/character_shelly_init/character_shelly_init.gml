@@ -210,8 +210,11 @@ function character_shelly_init()
 		//Custom Scripts
 		draw_script = -1;
 		callback_add(callback_passive, bayonetta_fspec_afterburner_passive, CALLBACK_TYPE.permanent);
+		
+        draw_script = -1;
+		callback_add(callback_hurt, Voicelines_Hurt, CALLBACK_TYPE.permanent);
 		}
-
+		
 	//States
 	if (_set_states)
 		{
@@ -323,5 +326,6 @@ function character_shelly_init()
 		my_sprites[$ "Grabbed"			] = spr_shelly_hit;
 		my_sprites[$ "Grab_Release"		] = spr_shelly_crouchloop;
 		}
+		
 	}
 /* Copyright 2025 Springroll Games / Yosi */

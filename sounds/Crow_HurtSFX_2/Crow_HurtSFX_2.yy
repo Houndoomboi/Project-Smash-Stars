@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"Hurt",
+  "%Name":"Crow_HurtSFX_2",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,17 +10,17 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.5359637,
+  "duration":0.94095236,
   "exportDir":"",
-  "name":"Hurt",
+  "name":"Crow_HurtSFX_2",
   "parent":{
     "name":"Voicelines",
-    "path":"folders/Characters/Shelly/Voicelines.yy",
+    "path":"folders/Characters/Crow/Voicelines.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Hurt.ogg",
-  "volume":0.64,
+  "soundFile":"Crow_HurtSFX_2.ogg",
+  "volume":1.0,
 }

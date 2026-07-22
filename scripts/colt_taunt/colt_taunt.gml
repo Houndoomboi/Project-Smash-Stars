@@ -34,7 +34,7 @@ function colt_taunt()
 				//Sound
 				if (attack_frame == 52)
 					{
-					game_sound_play(snd_blocky_taunt);
+					game_sound_play(ColtTaunt);
 					}
 			
 				//Taunt canceling
