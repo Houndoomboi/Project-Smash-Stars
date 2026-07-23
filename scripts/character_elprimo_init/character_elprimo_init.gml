@@ -232,7 +232,7 @@ function character_elprimo_init()
 		my_attacks[$ "Nair"			] = colt_airlight;
 		my_attacks[$ "Dair"			] = colt_airstrong;
 				 
-		my_attacks[$ "Nspec"		] = colt_special;
+		my_attacks[$ "Nspec"		] = El_Primo_Shine;
 		my_attacks[$ "Uspec"		] = colt_airspecial;
 				 
 		my_attacks[$ "Grab"			] = colt_grab;
