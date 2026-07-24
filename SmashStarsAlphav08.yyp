@@ -2067,6 +2067,8 @@
     {"id":{"name":"spr_primo_shieldloop","path":"sprites/spr_primo_shieldloop/spr_primo_shieldloop.yy",},},
     {"id":{"name":"spr_primo_shine","path":"sprites/spr_primo_shine/spr_primo_shine.yy",},},
     {"id":{"name":"spr_primo_stockicon","path":"sprites/spr_primo_stockicon/spr_primo_stockicon.yy",},},
+    {"id":{"name":"spr_primo_strongair","path":"sprites/spr_primo_strongair/spr_primo_strongair.yy",},},
+    {"id":{"name":"spr_primo_weakair","path":"sprites/spr_primo_weakair/spr_primo_weakair.yy",},},
     {"id":{"name":"spr_rad_bair","path":"sprites/spr_rad_bair/spr_rad_bair.yy",},},
     {"id":{"name":"spr_rad_bthrow","path":"sprites/spr_rad_bthrow/spr_rad_bthrow.yy",},},
     {"id":{"name":"spr_rad_css","path":"sprites/spr_rad_css/spr_rad_css.yy",},},
