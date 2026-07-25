@@ -286,6 +286,7 @@ function character_colt_init()
 		my_sprites[$ "Shield_Break"		] = anim_define_ext(spr_basic_shield_break, 0, 0.12, 1, 0, 1, 0, 0, true, -1);
 		my_sprites[$ "Parry_Stun"		] = spr_basic_parry_stun;
 		my_sprites[$ "Spot_Dodge"		] = spr_basic_spot_dodge;
+		my_sprites[$ "Bury"				] = spr_colt_bury
 				 
 		my_sprites[$ "Hitlag"			] = spr_colt_hit;
 		my_sprites[$ "Hitstun"			] = spr_colt_hit;

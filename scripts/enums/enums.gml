@@ -51,6 +51,7 @@ enum PLAYER_STATE
 	landing_lag,
 	knockdown,
 	getup,
+	bury,
 	
 	tech_rolling,
 	teching,
