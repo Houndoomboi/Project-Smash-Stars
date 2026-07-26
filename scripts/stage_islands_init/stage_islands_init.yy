@@ -6,7 +6,7 @@
   "name":"stage_islands_init",
   "parent":{
     "name":"Islands",
-    "path":"folders/Stages/Islands.yy",
+    "path":"folders/Stages/UnusedStages/Islands.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

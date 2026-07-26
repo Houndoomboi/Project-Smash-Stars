@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
-    "path":"folders/Stages/Factory/Objects.yy",
+    "path":"folders/Stages/UnusedStages/Factory/Objects.yy",
   },
   "parentObjectId":{
     "name":"obj_stage_animation_parent",

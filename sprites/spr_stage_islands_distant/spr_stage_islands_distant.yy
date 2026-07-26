@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Islands",
-    "path":"folders/Stages/Islands.yy",
+    "path":"folders/Stages/UnusedStages/Islands.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

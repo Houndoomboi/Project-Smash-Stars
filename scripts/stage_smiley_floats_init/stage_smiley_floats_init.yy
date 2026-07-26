@@ -6,7 +6,7 @@
   "name":"stage_smiley_floats_init",
   "parent":{
     "name":"Smiley Floats",
-    "path":"folders/Stages/Smiley Floats.yy",
+    "path":"folders/Stages/UnusedStages/Smiley Floats.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -26,7 +26,7 @@
   "origin":9,
   "parent":{
     "name":"Sprites",
-    "path":"folders/Stages/Campgrounds/Sprites.yy",
+    "path":"folders/Stages/UnusedStages/Campgrounds/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

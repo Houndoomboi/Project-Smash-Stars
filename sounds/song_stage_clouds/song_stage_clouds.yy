@@ -15,7 +15,7 @@
   "name":"song_stage_clouds",
   "parent":{
     "name":"Clouds",
-    "path":"folders/Stages/Clouds.yy",
+    "path":"folders/Stages/UnusedStages/Clouds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

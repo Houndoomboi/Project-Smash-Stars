@@ -15,7 +15,7 @@
   "name":"song_stage_biosphere0",
   "parent":{
     "name":"Biosphere",
-    "path":"folders/Stages/Biosphere.yy",
+    "path":"folders/Stages/UnusedStages/Biosphere.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

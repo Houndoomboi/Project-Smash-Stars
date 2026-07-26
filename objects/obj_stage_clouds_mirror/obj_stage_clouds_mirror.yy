@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Clouds",
-    "path":"folders/Stages/Clouds.yy",
+    "path":"folders/Stages/UnusedStages/Clouds.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Smiley Floats",
-    "path":"folders/Stages/Smiley Floats.yy",
+    "path":"folders/Stages/UnusedStages/Smiley Floats.yy",
   },
   "parentObjectId":{
     "name":"obj_solid_moving",

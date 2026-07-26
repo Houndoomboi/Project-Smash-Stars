@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Desert",
-    "path":"folders/Stages/Desert.yy",
+    "path":"folders/Stages/UnusedStages/Desert.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -11,18 +11,18 @@ function stage_data_get_all()
 			"Darryl's Ship",
 			stage_base_init,
 			rm_darrylship,
-			spr_stage_thumbnail_placeholder,
+			spr_stage_darrylship_icon,
 			["texture_stage_peak"],
-			0,
+			0
 			),
 		stage_define
 			(
 			"El Primo's Ring",
 			stage_primoring_init,
 			rm_primoring,
-			spr_stage_thumbnail_placeholder,
+			spr_stage_primoring_icon,
 			["texture_stage_islands"],
-			0,
+			0
 			),
 		stage_define
 			(
@@ -31,16 +31,16 @@ function stage_data_get_all()
 			rm_gemmine,
 			spr_stage_gemmine_icon,
 			["texture_stage_desert"],
-			0,
+			0
 			),
 		stage_define
 			(
 			"Giftshop",
 			stage_giftshop_init,
 			rm_stage_giftshop,
-			spr_stage_thumbnail_placeholder,
+			spr_stage_giftshop_icon,
 			["texture_stage_campground"],
-			0,
+			0
 			),
 		stage_define
 			(
@@ -49,7 +49,7 @@ function stage_data_get_all()
 			rm_stage_ranch,
 			spr_stage_ranch_icon,
 			["texture_stage_desert"],
-			0,
+			0
 			),
 		stage_define
 			(
@@ -58,61 +58,25 @@ function stage_data_get_all()
 			rm_stage_loveswamp,
 			spr_stage_loveswamp_icon,
 			["texture_stage_factory"],
-			0,
+			0
 			),
 		stage_define
 			(
-			"Stormy Clouds",
-			stage_clouds_init,
-			rm_stage_clouds,
-			spr_stage_thumbnails,
-			["texture_stage_clouds"],
-			5,
+			"Rumble Jungle",
+			stage_rumblejungle_init,
+			rm_rumblejungle,
+			spr_stage_rumblejungle_icon,
+			["texture_stage_factory"],
+			0
 			),
 		stage_define
 			(
-			"The Archive",
-			stage_archive_init,
-			rm_stage_archive,
-			spr_stage_thumbnails,
-			["texture_stage_archive"],
-			6,
-			),
-		stage_define
-			(
-			"Small Campground",
-			stage_small_campground_init,
-			rm_stage_small_campground,
-			spr_stage_thumbnails,
-			["texture_stage_campgrounds"],
-			7,
-			),
-		stage_define
-			(
-			"Haven",
-			stage_haven_init,
-			rm_stage_haven,
-			spr_stage_thumbnails,
-			["texture_stage_haven"],
-			8,
-			),
-		stage_define
-			(
-			"Smiley Floats",
-			stage_smiley_floats_init,
-			rm_stage_smiley_floats,
-			spr_stage_thumbnails,
-			["texture_stage_smiley_floats"],
-			9,
-			),
-		stage_define
-			(
-			"Biosphere",
-			stage_biosphere_init,
-			rm_stage_biosphere,
-			spr_stage_thumbnails,
-			["texture_stage_biosphere"],
-			10,
+			"Mortis' Mortuary",
+			stage_mortuary_init,
+			rm_mortuary,
+			spr_stage_mortuary_icon,
+			["texture_stage_factory"],
+			0
 			),
 	    ];
 	return _data;

@@ -15,7 +15,7 @@
   "name":"song_stage_haven_final",
   "parent":{
     "name":"Sounds",
-    "path":"folders/Stages/Haven/Sounds.yy",
+    "path":"folders/Stages/UnusedStages/Haven/Sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

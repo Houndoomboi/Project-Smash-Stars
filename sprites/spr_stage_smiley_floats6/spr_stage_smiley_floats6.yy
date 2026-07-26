@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Smiley Floats",
-    "path":"folders/Stages/Smiley Floats.yy",
+    "path":"folders/Stages/UnusedStages/Smiley Floats.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

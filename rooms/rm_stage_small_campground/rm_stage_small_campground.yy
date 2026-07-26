@@ -100,7 +100,7 @@
   "name":"rm_stage_small_campground",
   "parent":{
     "name":"Campgrounds",
-    "path":"folders/Stages/Campgrounds.yy",
+    "path":"folders/Stages/UnusedStages/Campgrounds.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

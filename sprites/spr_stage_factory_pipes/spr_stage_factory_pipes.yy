@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Sprites",
-    "path":"folders/Stages/Factory/Sprites.yy",
+    "path":"folders/Stages/UnusedStages/Factory/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

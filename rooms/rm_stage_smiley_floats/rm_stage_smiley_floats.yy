@@ -124,7 +124,7 @@
   "name":"rm_stage_smiley_floats",
   "parent":{
     "name":"Smiley Floats",
-    "path":"folders/Stages/Smiley Floats.yy",
+    "path":"folders/Stages/UnusedStages/Smiley Floats.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

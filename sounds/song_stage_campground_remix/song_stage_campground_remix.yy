@@ -15,7 +15,7 @@
   "name":"song_stage_campground_remix",
   "parent":{
     "name":"Sounds",
-    "path":"folders/Stages/Campgrounds/Sounds.yy",
+    "path":"folders/Stages/UnusedStages/Campgrounds/Sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

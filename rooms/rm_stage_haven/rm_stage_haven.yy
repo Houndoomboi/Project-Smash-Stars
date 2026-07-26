@@ -110,7 +110,7 @@
   "name":"rm_stage_haven",
   "parent":{
     "name":"Haven",
-    "path":"folders/Stages/Haven.yy",
+    "path":"folders/Stages/UnusedStages/Haven.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

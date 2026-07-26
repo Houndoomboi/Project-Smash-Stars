@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Clouds",
-    "path":"folders/Stages/Clouds.yy",
+    "path":"folders/Stages/UnusedStages/Clouds.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

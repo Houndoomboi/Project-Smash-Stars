@@ -15,7 +15,7 @@
   "name":"song_stage_peak",
   "parent":{
     "name":"Peak",
-    "path":"folders/Stages/Islands/Peak.yy",
+    "path":"folders/Stages/UnusedStages/Islands/Peak.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

@@ -6,7 +6,7 @@
   "name":"stage_factory_init",
   "parent":{
     "name":"Scripts",
-    "path":"folders/Stages/Factory/Scripts.yy",
+    "path":"folders/Stages/UnusedStages/Factory/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

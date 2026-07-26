@@ -6,7 +6,7 @@
   "name":"stage_peak_init",
   "parent":{
     "name":"Peak",
-    "path":"folders/Stages/Islands/Peak.yy",
+    "path":"folders/Stages/UnusedStages/Islands/Peak.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

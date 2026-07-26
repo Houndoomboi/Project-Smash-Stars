@@ -45,7 +45,7 @@
   "origin":4,
   "parent":{
     "name":"Biosphere",
-    "path":"folders/Stages/Biosphere.yy",
+    "path":"folders/Stages/UnusedStages/Biosphere.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

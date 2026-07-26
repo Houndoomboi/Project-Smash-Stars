@@ -6,7 +6,7 @@
   "name":"stage_clouds_distant_draw",
   "parent":{
     "name":"Clouds",
-    "path":"folders/Stages/Clouds.yy",
+    "path":"folders/Stages/UnusedStages/Clouds.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

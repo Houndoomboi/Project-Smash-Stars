@@ -102,7 +102,7 @@
   "name":"rm_stage_bounce",
   "parent":{
     "name":"Bounce",
-    "path":"folders/Stages/Bounce.yy",
+    "path":"folders/Stages/UnusedStages/Bounce.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

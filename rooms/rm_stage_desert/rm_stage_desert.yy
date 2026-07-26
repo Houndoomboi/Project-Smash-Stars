@@ -97,7 +97,7 @@
   "name":"rm_stage_desert",
   "parent":{
     "name":"Desert",
-    "path":"folders/Stages/Desert.yy",
+    "path":"folders/Stages/UnusedStages/Desert.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

@@ -6,7 +6,7 @@
   "name":"stage_haven_script",
   "parent":{
     "name":"Scripts",
-    "path":"folders/Stages/Haven/Scripts.yy",
+    "path":"folders/Stages/UnusedStages/Haven/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

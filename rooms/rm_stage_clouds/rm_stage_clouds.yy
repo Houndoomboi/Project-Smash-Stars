@@ -124,7 +124,7 @@
   "name":"rm_stage_clouds",
   "parent":{
     "name":"Clouds",
-    "path":"folders/Stages/Clouds.yy",
+    "path":"folders/Stages/UnusedStages/Clouds.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

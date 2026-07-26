@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Islands",
-    "path":"folders/Stages/Islands.yy",
+    "path":"folders/Stages/UnusedStages/Islands.yy",
   },
   "parentObjectId":{
     "name":"obj_stage_animation_parent",

@@ -15,7 +15,7 @@
   "name":"song_stage_desert",
   "parent":{
     "name":"Desert",
-    "path":"folders/Stages/Desert.yy",
+    "path":"folders/Stages/UnusedStages/Desert.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

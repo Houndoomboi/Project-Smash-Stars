@@ -15,7 +15,7 @@
   "name":"song_stage_archive",
   "parent":{
     "name":"Archive",
-    "path":"folders/Stages/Archive.yy",
+    "path":"folders/Stages/UnusedStages/Archive.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

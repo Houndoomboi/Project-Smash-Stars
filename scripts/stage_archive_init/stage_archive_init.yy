@@ -6,7 +6,7 @@
   "name":"stage_archive_init",
   "parent":{
     "name":"Archive",
-    "path":"folders/Stages/Archive.yy",
+    "path":"folders/Stages/UnusedStages/Archive.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

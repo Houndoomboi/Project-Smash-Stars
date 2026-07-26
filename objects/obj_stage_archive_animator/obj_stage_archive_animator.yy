@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Archive",
-    "path":"folders/Stages/Archive.yy",
+    "path":"folders/Stages/UnusedStages/Archive.yy",
   },
   "parentObjectId":null,
   "persistent":false,

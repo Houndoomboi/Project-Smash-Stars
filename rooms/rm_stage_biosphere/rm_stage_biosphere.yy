@@ -125,7 +125,7 @@
   "name":"rm_stage_biosphere",
   "parent":{
     "name":"Biosphere",
-    "path":"folders/Stages/Biosphere.yy",
+    "path":"folders/Stages/UnusedStages/Biosphere.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

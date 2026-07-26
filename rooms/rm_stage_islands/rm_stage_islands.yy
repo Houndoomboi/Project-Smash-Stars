@@ -117,7 +117,7 @@
   "name":"rm_stage_islands",
   "parent":{
     "name":"Islands",
-    "path":"folders/Stages/Islands.yy",
+    "path":"folders/Stages/UnusedStages/Islands.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

@@ -4,7 +4,7 @@
   "name":"shd_stage_factory_lava",
   "parent":{
     "name":"Shaders",
-    "path":"folders/Stages/Factory/Shaders.yy",
+    "path":"folders/Stages/UnusedStages/Factory/Shaders.yy",
   },
   "resourceType":"GMShader",
   "resourceVersion":"2.0",

@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
-    "path":"folders/Stages/Haven/Objects.yy",
+    "path":"folders/Stages/UnusedStages/Haven/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

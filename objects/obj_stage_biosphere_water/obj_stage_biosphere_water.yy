@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Biosphere",
-    "path":"folders/Stages/Biosphere.yy",
+    "path":"folders/Stages/UnusedStages/Biosphere.yy",
   },
   "parentObjectId":{
     "name":"obj_stage_animation_parent",

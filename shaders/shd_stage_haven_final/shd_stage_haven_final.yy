@@ -4,7 +4,7 @@
   "name":"shd_stage_haven_final",
   "parent":{
     "name":"Shaders",
-    "path":"folders/Stages/Haven/Shaders.yy",
+    "path":"folders/Stages/UnusedStages/Haven/Shaders.yy",
   },
   "resourceType":"GMShader",
   "resourceVersion":"2.0",

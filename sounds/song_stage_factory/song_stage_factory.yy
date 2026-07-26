@@ -15,7 +15,7 @@
   "name":"song_stage_factory",
   "parent":{
     "name":"Sounds",
-    "path":"folders/Stages/Factory/Sounds.yy",
+    "path":"folders/Stages/UnusedStages/Factory/Sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

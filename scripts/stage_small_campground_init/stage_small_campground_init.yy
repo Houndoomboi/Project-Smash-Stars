@@ -6,7 +6,7 @@
   "name":"stage_small_campground_init",
   "parent":{
     "name":"Scripts",
-    "path":"folders/Stages/Campgrounds/Scripts.yy",
+    "path":"folders/Stages/UnusedStages/Campgrounds/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

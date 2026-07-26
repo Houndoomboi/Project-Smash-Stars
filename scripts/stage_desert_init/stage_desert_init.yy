@@ -6,7 +6,7 @@
   "name":"stage_desert_init",
   "parent":{
     "name":"Desert",
-    "path":"folders/Stages/Desert.yy",
+    "path":"folders/Stages/UnusedStages/Desert.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

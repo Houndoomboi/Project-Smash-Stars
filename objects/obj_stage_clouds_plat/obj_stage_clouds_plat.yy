@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Clouds",
-    "path":"folders/Stages/Clouds.yy",
+    "path":"folders/Stages/UnusedStages/Clouds.yy",
   },
   "parentObjectId":{
     "name":"obj_platform_moving",
