@@ -25,7 +25,7 @@ function El_Primo_Ground_Strong()
 		
 				charge = 0;
 		
-				attack_frame = 34;
+				attack_frame = 6;
 				return;
 				}
 			//Charging
@@ -36,7 +36,7 @@ function El_Primo_Ground_Strong()
 					{
 						anim_frame = 1;
 						attack_phase++;
-						attack_frame = 12;
+						attack_frame = 15;
 						speed_set(3 * facing, 0, false, false);
 						}
 				break;
@@ -44,6 +44,16 @@ function El_Primo_Ground_Strong()
 			//Startup
 			case 1:
 				{
+					if (attack_frame == 15)
+					anim_frame = 1;	
+					if (attack_frame == 12)
+					anim_frame = 2;	
+					if (attack_frame == 9)
+					anim_frame = 3;	
+					if (attack_frame == 6)
+					anim_frame = 4;	
+					if (attack_frame == 3)
+					anim_frame = 5;	
 					
 				if (attack_frame == 0)
 					{
@@ -65,13 +75,13 @@ function El_Primo_Ground_Strong()
 				
 				//Animation
 				if (attack_frame == 3)
-					anim_frame = 9;
+					anim_frame = 7;
 		
 				if (attack_frame == 0)
 					{
-					anim_frame = 11;
+					anim_frame = 8;
 					attack_phase++;
-					attack_frame = attack_connected() ? 20 : 30;
+					attack_frame = 33;
 					}
 				break;
 				}
@@ -79,10 +89,22 @@ function El_Primo_Ground_Strong()
 			case 3:
 				{
 				//Animation
-				if (attack_frame <= 20)
-					anim_frame = 13;
-				if (attack_frame <= 10)
-					anim_frame = 14;
+				if (attack_frame == 30)
+					anim_frame = 9;	
+				if (attack_frame == 27)
+					anim_frame = 10;
+				if (attack_frame == 24)
+					anim_frame = 11;
+				if (attack_frame == 21)
+					anim_frame = 10;
+				if (attack_frame == 18)
+					anim_frame = 12;
+				if (attack_frame == 12)
+					anim_frame = 13;	
+				if (attack_frame == 9)
+					anim_frame = 14;	
+				if (attack_frame == 6)
+					anim_frame = 15;	
 		
 				if (attack_frame == 0)
 					{

@@ -78,7 +78,10 @@ function colt_airlight()
 					}
 
 
-				
+				if (attack_frame == 0)
+					{
+					attack_stop(PLAYER_STATE.aerial);
+					}
 				break;
 				}
 
