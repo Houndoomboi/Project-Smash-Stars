@@ -51,9 +51,9 @@ function El_Primo_Strong_Air()
 					//Hitboxes
 					speed_set(5 * facing ,4,false,false);
 
-					var _hitbox = hitbox_create_melee(0, -1, 1.5, 1.5, 10, 0, 0, 20, 90, 3, SHAPE.circle, 0);
+					var _hitbox = hitbox_create_melee(5, -1, 1.5, 1.5, 10, 0, 0, 20, 90, 3, SHAPE.circle, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.explosion;
-					var _hitbox = hitbox_create_detectbox(0, -1, 1.5, 1.5, 3, SHAPE.circle, 1);
+					var _hitbox = hitbox_create_detectbox(5, -1, 1.5, 1.5, 3, SHAPE.circle, 1);
 					}
 				break;
 				}
