@@ -23,7 +23,7 @@
   ],
   "name":"gemmineplatform",
   "nineSlice":null,
-  "origin":9,
+  "origin":7,
   "parent":{
     "name":"Gem Mine",
     "path":"folders/Stages/Gem Mine.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":160,
-    "yorigin":220,
+    "yorigin":320,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
