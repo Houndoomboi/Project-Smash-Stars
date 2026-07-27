@@ -9,6 +9,10 @@ function stage_rumblejungle_init()
 	//Background sprites
 	background = 
 		[
+		background_define_script(spr_jungle_skybox, 0, 0, 1, 0, 0, 0, 0, false, 0),
+		background_define_script(spr_jungle_volcano, 0, 0, 1, .5, .5, 0, 0, false, 0),
+		background_define_script(spr_jungle_plains, 0, 0, 1, .5, .5, 0, 0, false, 0),
+		background_define_script(spr_jungle_rocks, 0, 0, 1, .5, .5, 0, 0, false, 0),
 		back_clear,
 		];
 	
@@ -16,7 +20,7 @@ function stage_rumblejungle_init()
 	foreground = [];
 	
 	//Music
-	stage_music_set(-1);
+	stage_music_set(Rumble_Jungle);
 	
 	//Stage passive
 	callback_stage_passive = [];
@@ -36,7 +40,7 @@ function stage_rumblejungle_init()
 	//Stage settings
 	setting().daynight_cycle_enable = false;
 	setting().stage_background_color = c_white;
-	setting().slope_collisions_enable = false;
+	setting().slope_collisions_enable = true;
 	setting().background_is_static = true;
 	setting().screen_shader_script = -1;
 	

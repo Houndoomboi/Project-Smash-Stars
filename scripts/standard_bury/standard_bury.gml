@@ -52,7 +52,7 @@ function standard_bury()
 				run = false;
 				}
 
-			move_hit_platforms();
+			//move_hit_platforms();
 			break;
 			}
 		}

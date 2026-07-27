@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.8818594,
+  "duration":1.2039002,
   "exportDir":"",
   "name":"ColtTaunt",
   "parent":{
