@@ -240,10 +240,10 @@ function character_elprimo_init()
 		my_attacks[$ "Pummel"		] = basic_pummel;
 		my_attacks[$ "Zair"			] = -1;
 				 
-		my_attacks[$ "Fthrow"		] = blocky_fthrow;
-		my_attacks[$ "Bthrow"		] = blocky_bthrow;
-		my_attacks[$ "Uthrow"		] = basic_uthrow_combo;
-		my_attacks[$ "Dthrow"		] = basic_dthrow_combo;
+		my_attacks[$ "Fthrow"		] = Primo_FThrow;
+		my_attacks[$ "Bthrow"		] = Primo_BThrow;
+		my_attacks[$ "Uthrow"		] = Primo_UThrow;
+		my_attacks[$ "Dthrow"		] = Primo_FThrow;
 		
 		my_attacks[$ "Getup_Attack"	] = colt_jab;
 		my_attacks[$ "Ledge_Attack"	] = colt_jab;
@@ -321,9 +321,9 @@ function character_elprimo_init()
 		my_sprites[$ "Star_KO"			] = spr_basic_star_ko;
 		my_sprites[$ "Screen_KO"		] = spr_basic_screen_ko;
 				 
-		my_sprites[$ "Grabbing"			] = spr_basic_grabbing;
+		my_sprites[$ "Grabbing"			] = spr_primo_grabbing;
 		my_sprites[$ "Grabbed"			] = spr_primo_hit;
-		my_sprites[$ "Grab_Release"		] = anim_define(spr_primo_crouch, anim_define(spr_colt_crouch_loop));
+		my_sprites[$ "Grab_Release"		] = anim_define(spr_primo_crouch, anim_define(spr_primo_run));
 		}
 	}
 /* Copyright 2025 Springroll Games / Yosi */

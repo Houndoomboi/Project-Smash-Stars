@@ -235,8 +235,8 @@ function character_crow_init()
 		my_attacks[$ "Nspec"		] = crow_special;
 		my_attacks[$ "Uspec"		] = crow_airspecial;
 				 
-		my_attacks[$ "Grab"			] = colt_grab;
-		my_attacks[$ "Dash_Grab"	] = colt_grab;
+		my_attacks[$ "Grab"			] = crow_grab;
+		my_attacks[$ "Dash_Grab"	] = crow_grab;
 		my_attacks[$ "Pummel"		] = basic_pummel;
 		my_attacks[$ "Zair"			] = -1;
 				 

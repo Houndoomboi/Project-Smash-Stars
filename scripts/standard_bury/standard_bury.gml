@@ -15,9 +15,9 @@ function standard_bury()
 		case PLAYER_STATE_PHASE.start:
 			{
 			//Animation
-			anim_set(my_sprites[$ "Bury"]);
+			anim_set(my_sprites[$ "Hitstun"]);
 			//Invulnerable
-			invulnerability_set(INV.invincible, 1);
+			invulnerability_set(INV.invincible, 0);
 			break;
 			}
 		case PLAYER_STATE_PHASE.normal:
