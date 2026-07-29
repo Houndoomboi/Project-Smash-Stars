@@ -45,8 +45,6 @@ function Primo_BThrow()
 				if (attack_frame == 0)
 					{
 					anim_frame = 3;
-					grabbed_id.x = x + (facing * -77);
-					grabbed_id.y = y + -95;
 					attack_phase++;
 					attack_frame = 15;
 					game_sound_play(snd_hit_light);
@@ -63,13 +61,13 @@ function Primo_BThrow()
 				{
 				//Animation
 				if (attack_frame == 12)
-					anim_frame = 9;
+					anim_frame = 4;
 				if (attack_frame == 9)
-					anim_frame = 10;
+					anim_frame = 5;
 				if (attack_frame == 6)
-					anim_frame = 11;
+					anim_frame = 6;
 				if (attack_frame == 3)
-					anim_frame = 12;
+					anim_frame = 7;
 					
 				if (attack_frame == 0)
 					{
