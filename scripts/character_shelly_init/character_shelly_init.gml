@@ -213,6 +213,10 @@ function character_shelly_init()
 		
         draw_script = -1;
 		callback_add(callback_hurt, Voicelines_Hurt, CALLBACK_TYPE.permanent);
+		
+		
+		draw_script = -1;
+		callback_add(callback_knocked_out, Voicelines_KO, CALLBACK_TYPE.permanent);
 		}
 		
 	//States

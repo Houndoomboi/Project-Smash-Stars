@@ -249,7 +249,7 @@ function character_elprimo_init()
 		my_attacks[$ "Ledge_Attack"	] = colt_jab;
 		my_attacks[$ "Item_Throw"	] = basic_item_throw;
 		my_attacks[$ "Item_Attack"	] = basic_item_attack;
-		my_attacks[$ "Taunt"		] = colt_taunt;
+		my_attacks[$ "Taunt"		] = Primo_Taunt;
 		my_attacks[$ "Final_Smash"	] = blocky_final_smash;
 		}
 		

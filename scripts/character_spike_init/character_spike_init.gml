@@ -249,7 +249,7 @@ function character_spike_init()
 		my_attacks[$ "Ledge_Attack"	] = spike_jab;
 		my_attacks[$ "Item_Throw"	] = basic_item_throw;
 		my_attacks[$ "Item_Attack"	] = basic_item_attack;
-		my_attacks[$ "Taunt"		] = blocky_taunt;
+		my_attacks[$ "Taunt"		] = spike_taunt;
 		my_attacks[$ "Final_Smash"	] = blocky_final_smash;
 		}
 		

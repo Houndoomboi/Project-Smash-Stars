@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"KO",
+  "%Name":"Shelly_KO",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -12,7 +12,7 @@
   "conversionMode":0,
   "duration":1.2298867,
   "exportDir":"",
-  "name":"KO",
+  "name":"Shelly_KO",
   "parent":{
     "name":"Voicelines",
     "path":"folders/Characters/Shelly/Voicelines.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"KO.ogg",
+  "soundFile":"Shelly_KO.ogg",
   "volume":0.64,
 }
