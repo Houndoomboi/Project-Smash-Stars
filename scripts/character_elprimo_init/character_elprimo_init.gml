@@ -235,8 +235,8 @@ function character_elprimo_init()
 		my_attacks[$ "Nspec"		] = El_Primo_Shine;
 		my_attacks[$ "Uspec"		] = El_Primo_Air_Special;
 				 
-		my_attacks[$ "Grab"			] = colt_grab;
-		my_attacks[$ "Dash_Grab"	] = colt_grab;
+		my_attacks[$ "Grab"			] = El_Primo_Grab;
+		my_attacks[$ "Dash_Grab"	] = El_Primo_Grab;
 		my_attacks[$ "Pummel"		] = basic_pummel;
 		my_attacks[$ "Zair"			] = -1;
 				 
