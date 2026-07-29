@@ -36,7 +36,7 @@ replay_metadata = replay_metadata_struct();
 replay_name = "Replay " + string(replay_data_get().time);
 
 //Background animation
-menu_background_color_set(_color_actual);
+
 
 //Play the victory theme
 audio_stop_all();

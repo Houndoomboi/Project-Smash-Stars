@@ -246,7 +246,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2026.0.0.16",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"SmashStarsAlphav08",
   "resources":[
@@ -326,7 +326,6 @@
     {"id":{"name":"obj_main_menu_ui","path":"objects/obj_main_menu_ui/obj_main_menu_ui.yy",},},
     {"id":{"name":"obj_match_loading_screen","path":"objects/obj_match_loading_screen/obj_match_loading_screen.yy",},},
     {"id":{"name":"obj_menu_background_loop","path":"objects/obj_menu_background_loop/obj_menu_background_loop.yy",},},
-    {"id":{"name":"obj_menu_background","path":"objects/obj_menu_background/obj_menu_background.yy",},},
     {"id":{"name":"obj_mis_system","path":"objects/obj_mis_system/obj_mis_system.yy",},},
     {"id":{"name":"obj_ness_fspec_pk_fire","path":"objects/obj_ness_fspec_pk_fire/obj_ness_fspec_pk_fire.yy",},},
     {"id":{"name":"obj_notice","path":"objects/obj_notice/obj_notice.yy",},},
@@ -1000,7 +999,6 @@
     {"id":{"name":"match_settings_load","path":"scripts/match_settings_load/match_settings_load.yy",},},
     {"id":{"name":"match_settings_save","path":"scripts/match_settings_save/match_settings_save.yy",},},
     {"id":{"name":"match_settings_string","path":"scripts/match_settings_string/match_settings_string.yy",},},
-    {"id":{"name":"menu_background_color_set","path":"scripts/menu_background_color_set/menu_background_color_set.yy",},},
     {"id":{"name":"menu_sound_play","path":"scripts/menu_sound_play/menu_sound_play.yy",},},
     {"id":{"name":"meta_knight_fspec_drill","path":"scripts/meta_knight_fspec_drill/meta_knight_fspec_drill.yy",},},
     {"id":{"name":"mewtwo_dash_attack","path":"scripts/mewtwo_dash_attack/mewtwo_dash_attack.yy",},},
@@ -1994,6 +1992,7 @@
     {"id":{"name":"spr_marth_utilt","path":"sprites/spr_marth_utilt/spr_marth_utilt.yy",},},
     {"id":{"name":"spr_match_loading_screen","path":"sprites/spr_match_loading_screen/spr_match_loading_screen.yy",},},
     {"id":{"name":"spr_menu_background","path":"sprites/spr_menu_background/spr_menu_background.yy",},},
+    {"id":{"name":"spr_menu_blackstrip","path":"sprites/spr_menu_blackstrip/spr_menu_blackstrip.yy",},},
     {"id":{"name":"spr_menu_cursor","path":"sprites/spr_menu_cursor/spr_menu_cursor.yy",},},
     {"id":{"name":"spr_meta_knight_fspec_drill","path":"sprites/spr_meta_knight_fspec_drill/spr_meta_knight_fspec_drill.yy",},},
     {"id":{"name":"spr_mewtwo_dash_attack_hurtbox","path":"sprites/spr_mewtwo_dash_attack_hurtbox/spr_mewtwo_dash_attack_hurtbox.yy",},},

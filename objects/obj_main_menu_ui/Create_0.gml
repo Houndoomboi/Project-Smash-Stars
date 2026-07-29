@@ -5,7 +5,7 @@ Handles the cursor on the main menu screen.
 only_one();
 
 //Background animation
-menu_background_color_set(c_ltgray);
+
 
 //Menu music
 if (!audio_is_playing(song_menu)) 

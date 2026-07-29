@@ -5,7 +5,7 @@ mis_init();
 mis_auto_connect_enable(true);
 
 //Background animation
-menu_background_color_set($777777);
+
 
 //Get the data from the Credits.txt file
 var _string = string_file_load("credits.txt");

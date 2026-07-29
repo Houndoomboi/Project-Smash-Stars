@@ -31,7 +31,6 @@
     {"name":"inst_175612DA","path":"rooms/rm_css/rm_css.yy",},
     {"name":"inst_6984B59D","path":"rooms/rm_css/rm_css.yy",},
     {"name":"inst_56EF3D37","path":"rooms/rm_css/rm_css.yy",},
-    {"name":"inst_6D0947CA","path":"rooms/rm_css/rm_css.yy",},
     {"name":"inst_533B4ED","path":"rooms/rm_css/rm_css.yy",},
     {"name":"inst_7D92BFE7","path":"rooms/rm_css/rm_css.yy",},
     {"name":"inst_2FD6FE6D","path":"rooms/rm_css/rm_css.yy",},
@@ -87,7 +86,6 @@
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":4.0,"scaleY":3.5,"x":384.0,"y":192.0,},
       ],"layers":[],"name":"Character_Zones","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"UI_Base_Layer","depth":400,"effectEnabled":true,"effectType":null,"gridX":4,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v4","%Name":"inst_6D0947CA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6D0947CA","objectId":{"name":"obj_menu_background","path":"objects/obj_menu_background/obj_menu_background.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-32.0,"y":-32.0,},
         {"$GMRInstance":"v4","%Name":"inst_1214D0E4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1214D0E4","objectId":{"name":"obj_ui_runner","path":"objects/obj_ui_runner/obj_ui_runner.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-32.0,"y":-64.0,},
         {"$GMRInstance":"v4","%Name":"inst_32D96CC7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_32D96CC7","objectId":{"name":"obj_ui_image","path":"objects/obj_ui_image/obj_ui_image.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_image","path":"objects/obj_ui_image/obj_ui_image.yy",},"propertyId":{"name":"sprite","path":"objects/obj_ui_image/obj_ui_image.yy",},"resource":{"name":"spr_icon_clear","path":"sprites/spr_icon_clear/spr_icon_clear.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_icon_clear",},

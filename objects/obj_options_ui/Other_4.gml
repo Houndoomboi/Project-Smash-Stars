@@ -5,7 +5,7 @@ mis_init();
 mis_auto_connect_enable(true);
 
 //Background animation
-menu_background_color_set($FFD3D3);
+
 
 //All options
 options_array = [];

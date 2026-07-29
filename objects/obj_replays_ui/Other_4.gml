@@ -5,7 +5,7 @@ mis_init();
 mis_auto_connect_enable(true);
 
 //Background animation
-menu_background_color_set($E24AB5);
+
 
 //Scan replay files
 replays_ui_scan();

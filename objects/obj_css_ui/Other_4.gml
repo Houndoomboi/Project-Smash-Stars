@@ -43,7 +43,7 @@ for (var i = 0; i < array_length(_vals); i++)
 	}
 
 //Background animation
-menu_background_color_set($32A9F8);
+
 
 //Menu Input System
 mis_init();
