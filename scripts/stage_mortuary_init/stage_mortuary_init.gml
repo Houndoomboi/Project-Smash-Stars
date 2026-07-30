@@ -16,7 +16,7 @@ function stage_mortuary_init()
 	foreground = [];
 	
 	//Music
-	stage_music_set(-1);
+	stage_music_set(Mortuary);
 	
 	//Stage passive
 	callback_stage_passive = [];

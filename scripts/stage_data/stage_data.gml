@@ -9,7 +9,7 @@ function stage_data_get_all()
 		stage_define
 			(
 			"Darryl's Ship",
-			stage_base_init,
+			stage_darrylship_init,
 			rm_darrylship,
 			spr_stage_darrylship_icon,
 			["texture_stage_peak"],
