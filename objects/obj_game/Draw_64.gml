@@ -109,7 +109,7 @@ if (state != GAME_STATE.cutscene)
 		switch (player_hud_type)
 			{
 			#region Normal
-			case HUD_TYPE.normal:
+			case HUD_TYPE.legacy:
 				//Fade out all HUD bars if any players are under them
 				var _collide_fade = 0;
 				for (var i = 0; i < ds_list_size(ordered_player_list); i++)
@@ -293,7 +293,7 @@ if (state != GAME_STATE.cutscene)
 				break;
 			#endregion
 			#region Legacy
-			case HUD_TYPE.legacy:
+			case HUD_TYPE.normal:
 				var _cache = [];
 				
 				//HUD back

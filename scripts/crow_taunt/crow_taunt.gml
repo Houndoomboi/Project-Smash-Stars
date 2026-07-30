@@ -31,7 +31,11 @@ function crow_taunt()
 				}
 			case 0:
 				{
-			
+				//Sound
+				if (attack_frame == 52)
+					{
+					game_sound_play(prng_choose(1, TalkisCheapVFX, BossofBossesVFX));
+					}
 			
 				//Taunt canceling
 				if (attack_frame < 42)

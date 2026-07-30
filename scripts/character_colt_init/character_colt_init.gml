@@ -283,7 +283,7 @@ function character_colt_init()
 		my_sprites[$ "Rolling"			] = spr_basic_rolling;
 		my_sprites[$ "Shield"			] = anim_define(spr_colt_shield_begin, anim_define(spr_colt_shield));
 		my_sprites[$ "Shield_Release"	] = spr_colt_Idle;
-		my_sprites[$ "Shield_Break"		] = anim_define_ext(spr_basic_shield_break, 0, 0.12, 1, 0, 1, 0, 0, true, -1);
+		my_sprites[$ "Shield_Break"		] = anim_define_ext(spr_colt_shieldbreak, 0, 0.12, 1, 0, 1, 0, 0, true, -1);
 		my_sprites[$ "Parry_Stun"		] = spr_basic_parry_stun;
 		my_sprites[$ "Spot_Dodge"		] = spr_basic_spot_dodge;
 		my_sprites[$ "Bury"				] = spr_colt_bury;
@@ -319,7 +319,7 @@ function character_colt_init()
 		my_sprites[$ "Wall_Jump"		] = spr_colt_jump;
 	
 		my_sprites[$ "Star_KO"			] = spr_basic_star_ko;
-		my_sprites[$ "Screen_KO"		] = spr_basic_screen_ko;
+		my_sprites[$ "Screen_KO"		] = spr_colt_screenko;
 				 
 		my_sprites[$ "Grabbing"			] = spr_basic_grabbing;
 		my_sprites[$ "Grabbed"			] = spr_colt_hit;

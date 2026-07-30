@@ -31,11 +31,12 @@ function colt_taunt()
 				}
 			case 0:
 				{
-				//Sound
+			//Sound
 				if (attack_frame == 52)
 					{
-					game_sound_play(ColtTaunt);
+					game_sound_play(prng_choose(1, ColtTaunt, Colt_Noobvl));
 					}
+					
 			
 				//Taunt canceling
 				if (attack_frame < 42)

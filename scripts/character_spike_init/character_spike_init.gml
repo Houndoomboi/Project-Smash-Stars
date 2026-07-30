@@ -319,7 +319,7 @@ function character_spike_init()
 		my_sprites[$ "Wall_Jump"		] = spr_basic_wall_jump;
 	
 		my_sprites[$ "Star_KO"			] = spr_basic_star_ko;
-		my_sprites[$ "Screen_KO"		] = spr_basic_screen_ko;
+		my_sprites[$ "Screen_KO"		] = spr_spike_screenko;
 				 
 		my_sprites[$ "Grabbing"			] = spr_basic_grabbing;
 		my_sprites[$ "Grabbed"			] = spr_spike_hurt;

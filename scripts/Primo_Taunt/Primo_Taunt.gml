@@ -31,7 +31,11 @@ function Primo_Taunt()
 				}
 			case 0:
 				{
-		
+		//Sound
+				if (attack_frame == 52)
+					{
+					game_sound_play(prng_choose(1, Primo_ulose, Primo_tease));
+					}
 			
 				//Taunt canceling
 				if (attack_frame < 42)
