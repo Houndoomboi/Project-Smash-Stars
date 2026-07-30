@@ -297,7 +297,7 @@ function character_elprimo_init()
 		my_sprites[$ "Helpless"			] = spr_primo_jump;
 		my_sprites[$ "Magnet"			] = spr_primo_hit;
 		my_sprites[$ "Flinch"			] = spr_primo_hit;
-		my_sprites[$ "Landing_Lag"		] = anim_define(spr_primo_crouch, anim_define(spr_colt_crouch_loop));
+		my_sprites[$ "Landing_Lag"		] = anim_define(spr_primo_crouch, anim_define(spr_colt_HUD));
 		my_sprites[$ "Balloon"			] = spr_basic_balloon
 		my_sprites[$ "Reeling"			] = spr_primo_hit;
 		my_sprites[$ "Knockdown"		] = anim_define_ext(spr_basic_knockdown, 2, 0.7, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
@@ -305,14 +305,14 @@ function character_elprimo_init()
 		my_sprites[$ "Getup"			] = anim_define_ext(spr_basic_getup, 0, anim_calculate_speed(spr_basic_getup, getup_active + getup_endlag));
 	
 		my_sprites[$ "Tech_Rolling"		] = spr_primo_airdodge; 
-		my_sprites[$ "Teching"			] = spr_colt_crouch_loop;
+		my_sprites[$ "Teching"			] = spr_colt_HUD;
 		my_sprites[$ "Teching_Wall"		] = spr_primo_jump;
 		my_sprites[$ "Teching_Ceiling"	] = spr_primo_jump;
 		my_sprites[$ "Tech_Wall_Jump"	] = spr_primo_jump;
 				 
 		my_sprites[$ "Ledge_Snap"		] = spr_primo_ledge;
 		my_sprites[$ "Ledge_Hang"		] = spr_primo_ledge;
-		my_sprites[$ "Ledge_Getup"		] = spr_colt_crouch_loop;
+		my_sprites[$ "Ledge_Getup"		] = spr_colt_HUD;
 		my_sprites[$ "Ledge_Jump"		] = spr_primo_jump;
 		my_sprites[$ "Ledge_Roll"		] = spr_primo_airdodge;
 		my_sprites[$ "Ledge_Attack"		] = spr_colt_lightground;

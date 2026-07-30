@@ -297,7 +297,7 @@ function character_crow_init()
 		my_sprites[$ "Helpless"			] = spr_crow_hit;
 		my_sprites[$ "Magnet"			] = spr_crow_hit;
 		my_sprites[$ "Flinch"			] = spr_crow_hit;
-		my_sprites[$ "Landing_Lag"		] = anim_define(spr_crow_crouch, anim_define(spr_colt_crouch_loop));
+		my_sprites[$ "Landing_Lag"		] = anim_define(spr_crow_crouch, anim_define(spr_colt_HUD));
 		my_sprites[$ "Balloon"			] = spr_basic_balloon;
 		my_sprites[$ "Reeling"			] = spr_crow_hit;
 		my_sprites[$ "Knockdown"		] = anim_define_ext(spr_crow_hit, 2, 0.7, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
@@ -326,7 +326,7 @@ function character_crow_init()
 				 
 		my_sprites[$ "Grabbing"			] = spr_basic_grabbing;
 		my_sprites[$ "Grabbed"			] = spr_crow_hit;
-		my_sprites[$ "Grab_Release"		] = anim_define(spr_colt_crouch, anim_define(spr_colt_crouch_loop));
+		my_sprites[$ "Grab_Release"		] = anim_define(spr_colt_crouch, anim_define(spr_colt_HUD));
 		}
 	}
 /* Copyright 2025 Springroll Games / Yosi */
