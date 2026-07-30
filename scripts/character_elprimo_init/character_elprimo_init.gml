@@ -211,6 +211,9 @@ function character_elprimo_init()
 		//Custom Scripts
 		draw_script = -1;
 		callback_add(callback_passive, bayonetta_fspec_afterburner_passive, CALLBACK_TYPE.permanent);
+		
+		draw_script = -1;
+		callback_add(callback_hurt, PrimoVoicelines, CALLBACK_TYPE.permanent);
 		}
 
 	//States

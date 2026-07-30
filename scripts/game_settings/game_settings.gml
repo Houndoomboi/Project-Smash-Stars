@@ -432,8 +432,8 @@ function setting()
 #macro star_ko_chance						5 //{int} Players KOed off the top on a frame number divisible by this number will be star KOed.
 #macro star_ko_distance						(room_height div 2) //{real} The distance players fall during the star KO animation.
 #macro screen_ko_time						100 //{int} The number of frames the screen KO animation takes.
-#macro screen_ko_chance						6 //{int} Players KOed off the top on a frame number divisible by this number will be screen KOed.
-#macro screen_ko_scale_multiplier			3 //{real} The sprite scale used for players being screen KOed.
+#macro screen_ko_chance						2 //{int} Players KOed off the top on a frame number divisible by this number will be screen KOed.
+#macro screen_ko_scale_multiplier			0.5 //{real} The sprite scale used for players being screen KOed.
 #macro respawn_platform_time_max			180 //{int} The maximum amount of time players can stay on the respawn platform.
 #macro respawn_inv_time						90 //{int} The number of frames of invincibility players get after leaving the respawn platform.
 #macro respawn_inv_end_on_attack			true //{bool} Whether respawn invincibility goes away after a player attacks or not.

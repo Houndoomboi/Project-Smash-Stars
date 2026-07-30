@@ -10,6 +10,7 @@ function crow_groundstrong()
 
 	//Canceling
 	if (run && cancel_air_check()) then run = false;
+	
 
 	//Phases
 	if (run)
@@ -28,6 +29,8 @@ function crow_groundstrong()
 				attack_frame = 6;
 				return;
 				}
+				
+				
 			//Charging
 			case 0:
 				{

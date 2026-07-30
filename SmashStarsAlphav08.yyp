@@ -246,7 +246,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2026.0.0.16",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"SmashStarsAlphav08",
   "resources":[
@@ -692,6 +692,7 @@
     {"id":{"name":"colt_jab","path":"scripts/colt_jab/colt_jab.yy",},},
     {"id":{"name":"colt_special","path":"scripts/colt_special/colt_special.yy",},},
     {"id":{"name":"colt_taunt","path":"scripts/colt_taunt/colt_taunt.yy",},},
+    {"id":{"name":"ColtVoicelines_Hurt","path":"scripts/ColtVoicelines_Hurt/ColtVoicelines_Hurt.yy",},},
     {"id":{"name":"combo_register","path":"scripts/combo_register/combo_register.yy",},},
     {"id":{"name":"command_grab","path":"scripts/command_grab/command_grab.yy",},},
     {"id":{"name":"command_inputs_passive","path":"scripts/command_inputs_passive/command_inputs_passive.yy",},},
@@ -715,6 +716,7 @@
     {"id":{"name":"crow_special","path":"scripts/crow_special/crow_special.yy",},},
     {"id":{"name":"crow_strongair","path":"scripts/crow_strongair/crow_strongair.yy",},},
     {"id":{"name":"crow_taunt","path":"scripts/crow_taunt/crow_taunt.yy",},},
+    {"id":{"name":"CrowVoicelines","path":"scripts/CrowVoicelines/CrowVoicelines.yy",},},
     {"id":{"name":"css_can_start_match","path":"scripts/css_can_start_match/css_can_start_match.yy",},},
     {"id":{"name":"css_character_color_get_next","path":"scripts/css_character_color_get_next/css_character_color_get_next.yy",},},
     {"id":{"name":"css_engine_player_data_load","path":"scripts/css_engine_player_data_load/css_engine_player_data_load.yy",},},
@@ -1132,6 +1134,7 @@
     {"id":{"name":"Primo_FThrow","path":"scripts/Primo_FThrow/Primo_FThrow.yy",},},
     {"id":{"name":"Primo_Taunt","path":"scripts/Primo_Taunt/Primo_Taunt.yy",},},
     {"id":{"name":"Primo_UThrow","path":"scripts/Primo_UThrow/Primo_UThrow.yy",},},
+    {"id":{"name":"PrimoVoicelines","path":"scripts/PrimoVoicelines/PrimoVoicelines.yy",},},
     {"id":{"name":"prng_choose_weighted","path":"scripts/prng_choose_weighted/prng_choose_weighted.yy",},},
     {"id":{"name":"prng_choose","path":"scripts/prng_choose/prng_choose.yy",},},
     {"id":{"name":"prng_number","path":"scripts/prng_number/prng_number.yy",},},
