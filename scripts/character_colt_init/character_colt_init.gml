@@ -282,12 +282,12 @@ function character_colt_init()
 		my_sprites[$ "DFastfall"		] = -1;
 				 
 		my_sprites[$ "Airdodge"			] = anim_define_ext(spr_colt_airdodge, 0, anim_calculate_speed(spr_colt_airdodge, airdodge_startup + airdodge_active + airdodge_endlag));
-		my_sprites[$ "Waveland"			] = spr_basic_waveland;
+		my_sprites[$ "Waveland"			] = spr_colt_crouch;
 		my_sprites[$ "Rolling"			] = spr_basic_rolling;
 		my_sprites[$ "Shield"			] = anim_define(spr_colt_shield_begin, anim_define(spr_colt_shield));
 		my_sprites[$ "Shield_Release"	] = spr_colt_Idle;
 		my_sprites[$ "Shield_Break"		] = anim_define_ext(spr_colt_shieldbreak, 0, 0.12, 1, 0, 1, 0, 0, true, -1);
-		my_sprites[$ "Parry_Stun"		] = spr_basic_parry_stun;
+		my_sprites[$ "Parry_Stun"		] = spr_colt_shieldbreak;
 		my_sprites[$ "Spot_Dodge"		] = spr_basic_spot_dodge;
 		my_sprites[$ "Bury"				] = spr_colt_bury;
 				 
@@ -298,7 +298,7 @@ function character_colt_init()
 		my_sprites[$ "Magnet"			] = spr_colt_hit;
 		my_sprites[$ "Flinch"			] = spr_colt_hit;
 		my_sprites[$ "Landing_Lag"		] = anim_define(spr_colt_crouch, anim_define(spr_colt_HUD));
-		my_sprites[$ "Balloon"			] = spr_basic_balloon;
+		my_sprites[$ "Balloon"			] = spr_colt_hit;
 		my_sprites[$ "Reeling"			] = spr_colt_hit;
 		my_sprites[$ "Knockdown"		] = anim_define_ext(spr_basic_knockdown, 2, 0.7, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
 		my_sprites[$ "Lock"				] = anim_define_ext(spr_basic_knockdown, 0, 0.5, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
@@ -321,7 +321,7 @@ function character_colt_init()
 		my_sprites[$ "Wall_Cling"		] = -1;
 		my_sprites[$ "Wall_Jump"		] = spr_colt_jump;
 	
-		my_sprites[$ "Star_KO"			] = spr_basic_star_ko;
+		my_sprites[$ "Star_KO"			] = spr_colt_hit;
 		my_sprites[$ "Screen_KO"		] = spr_colt_screenko;
 				 
 		my_sprites[$ "Grabbing"			] = spr_basic_grabbing;

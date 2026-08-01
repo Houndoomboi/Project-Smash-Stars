@@ -248,8 +248,8 @@ function character_elprimo_init()
 		my_attacks[$ "Uthrow"		] = Primo_UThrow;
 		my_attacks[$ "Dthrow"		] = Primo_FThrow;
 		
-		my_attacks[$ "Getup_Attack"	] = colt_jab;
-		my_attacks[$ "Ledge_Attack"	] = colt_jab;
+		my_attacks[$ "Getup_Attack"	] = El_Primo_Jab;
+		my_attacks[$ "Ledge_Attack"	] = El_Primo_Jab;
 		my_attacks[$ "Item_Throw"	] = basic_item_throw;
 		my_attacks[$ "Item_Attack"	] = basic_item_attack;
 		my_attacks[$ "Taunt"		] = Primo_Taunt;
@@ -282,13 +282,13 @@ function character_elprimo_init()
 		my_sprites[$ "DFastfall"		] = -1;
 				 
 		my_sprites[$ "Airdodge"			] = anim_define_ext(spr_primo_airdodge, 0, anim_calculate_speed(spr_primo_airdodge, airdodge_startup + airdodge_active + airdodge_endlag));
-		my_sprites[$ "Waveland"			] = spr_basic_waveland;
-		my_sprites[$ "Rolling"			] = spr_basic_rolling;
+		my_sprites[$ "Waveland"			] = spr_primo_crouch;
+		my_sprites[$ "Rolling"			] = spr_primo_airdodge;
 		my_sprites[$ "Shield"			] = anim_define(spr_primo_shield, anim_define(spr_primo_shieldloop));
 		my_sprites[$ "Shield_Release"	] = spr_elprimo_idle;
 		my_sprites[$ "Shield_Break"		] = anim_define_ext(spr_primo_dizzy, 0, 0.12, 1, 0, 1, 0, 0, true, -1);
-		my_sprites[$ "Parry_Stun"		] = spr_basic_parry_stun;
-		my_sprites[$ "Spot_Dodge"		] = spr_basic_spot_dodge;
+		my_sprites[$ "Parry_Stun"		] = spr_primo_dizzy;
+		my_sprites[$ "Spot_Dodge"		] = spr_primo_airdodge;
 		my_sprites[$ "Bury"				] = spr_colt_bury;
 				 
 		my_sprites[$ "Hitlag"			] = spr_primo_hit;
@@ -297,31 +297,31 @@ function character_elprimo_init()
 		my_sprites[$ "Helpless"			] = spr_primo_jump;
 		my_sprites[$ "Magnet"			] = spr_primo_hit;
 		my_sprites[$ "Flinch"			] = spr_primo_hit;
-		my_sprites[$ "Landing_Lag"		] = anim_define(spr_primo_crouch, anim_define(spr_colt_HUD));
-		my_sprites[$ "Balloon"			] = spr_basic_balloon
+		my_sprites[$ "Landing_Lag"		] = anim_define(spr_primo_crouch, anim_define(spr_primo_crouch));
+		my_sprites[$ "Balloon"			] = spr_primo_hit
 		my_sprites[$ "Reeling"			] = spr_primo_hit;
 		my_sprites[$ "Knockdown"		] = anim_define_ext(spr_basic_knockdown, 2, 0.7, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
 		my_sprites[$ "Lock"				] = anim_define_ext(spr_basic_knockdown, 0, 0.5, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
 		my_sprites[$ "Getup"			] = anim_define_ext(spr_basic_getup, 0, anim_calculate_speed(spr_basic_getup, getup_active + getup_endlag));
 	
 		my_sprites[$ "Tech_Rolling"		] = spr_primo_airdodge; 
-		my_sprites[$ "Teching"			] = spr_colt_HUD;
+		my_sprites[$ "Teching"			] = spr_primo_airdodge;
 		my_sprites[$ "Teching_Wall"		] = spr_primo_jump;
 		my_sprites[$ "Teching_Ceiling"	] = spr_primo_jump;
 		my_sprites[$ "Tech_Wall_Jump"	] = spr_primo_jump;
 				 
 		my_sprites[$ "Ledge_Snap"		] = spr_primo_ledge;
 		my_sprites[$ "Ledge_Hang"		] = spr_primo_ledge;
-		my_sprites[$ "Ledge_Getup"		] = spr_colt_HUD;
+		my_sprites[$ "Ledge_Getup"		] = spr_primo_ledge;
 		my_sprites[$ "Ledge_Jump"		] = spr_primo_jump;
 		my_sprites[$ "Ledge_Roll"		] = spr_primo_airdodge;
-		my_sprites[$ "Ledge_Attack"		] = spr_colt_lightground;
+		my_sprites[$ "Ledge_Attack"		] = spr_primo_jab;
 		my_sprites[$ "Ledge_Tether"		] = anim_define_ext(spr_basic_ledge_tether, 0, 0.3, 1, 0, 1, 0, 16, true, -1);
-		my_sprites[$ "Ledge_Trump"		] = spr_basic_ledge_trump;
+		my_sprites[$ "Ledge_Trump"		] = spr_primo_jump;
 		my_sprites[$ "Wall_Cling"		] = -1;
 		my_sprites[$ "Wall_Jump"		] = spr_primo_jump;
 	
-		my_sprites[$ "Star_KO"			] = spr_basic_star_ko;
+		my_sprites[$ "Star_KO"			] = spr_primo_hit;
 		my_sprites[$ "Screen_KO"		] = spr_primo_screenko;
 				 
 		my_sprites[$ "Grabbing"			] = spr_primo_grabbing;

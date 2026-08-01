@@ -9,6 +9,10 @@ function stage_mortuary_init()
 	//Background sprites
 	background = 
 		[
+			background_define_script(spr_mortuary_skybox, 0, 0, 1, 0, 0, 0, 0, false, 0),
+			background_define_script(spr_mortuary_clouds, 0, 0, 1, .5, .5, 0, 0, false, 0),
+			background_define_script(spr_mortuary_mountains, 0, 0, 1, .6, .6, 0, 0, false, 0),
+			background_define_script(spr_mortuary_land, 0, 0, 1, .7, .7, 0, 0, false, 0),
 		back_clear,
 		];
 	

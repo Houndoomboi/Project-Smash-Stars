@@ -249,7 +249,7 @@ function character_crow_init()
 		my_attacks[$ "Dthrow"		] = basic_dthrow_combo;
 		
 		my_attacks[$ "Getup_Attack"	] = crow_jab;
-		my_attacks[$ "Ledge_Attack"	] = colt_jab;
+		my_attacks[$ "Ledge_Attack"	] = crow_jab;
 		my_attacks[$ "Item_Throw"	] = basic_item_throw;
 		my_attacks[$ "Item_Attack"	] = basic_item_attack;
 		my_attacks[$ "Taunt"		] = crow_taunt;
@@ -286,8 +286,8 @@ function character_crow_init()
 		my_sprites[$ "Rolling"			] = spr_crow_airdodge;
 		my_sprites[$ "Shield"			] = anim_define(spr_crow_shield, anim_define(spr_crow_shield));
 		my_sprites[$ "Shield_Release"	] = spr_crow_idle;
-		my_sprites[$ "Shield_Break"		] = anim_define_ext(spr_crow_hit, 0, 0.12, 1, 0, 1, 0, 0, true, -1);
-		my_sprites[$ "Parry_Stun"		] = spr_basic_parry_stun;
+		my_sprites[$ "Shield_Break"		] = anim_define_ext(spr_crow_dizzy, 0, 0.12, 1, 0, 1, 0, 0, true, -1);
+		my_sprites[$ "Parry_Stun"		] = spr_crow_dizzy;
 		my_sprites[$ "Spot_Dodge"		] = spr_basic_spot_dodge;
 			my_sprites[$ "Bury"				] = spr_colt_bury;
 				 
@@ -297,8 +297,8 @@ function character_crow_init()
 		my_sprites[$ "Helpless"			] = spr_crow_hit;
 		my_sprites[$ "Magnet"			] = spr_crow_hit;
 		my_sprites[$ "Flinch"			] = spr_crow_hit;
-		my_sprites[$ "Landing_Lag"		] = anim_define(spr_crow_crouch, anim_define(spr_colt_HUD));
-		my_sprites[$ "Balloon"			] = spr_basic_balloon;
+		my_sprites[$ "Landing_Lag"		] = anim_define(spr_crow_crouch, anim_define(spr_crow_crouch));
+		my_sprites[$ "Balloon"			] = spr_crow_hit;
 		my_sprites[$ "Reeling"			] = spr_crow_hit;
 		my_sprites[$ "Knockdown"		] = anim_define_ext(spr_crow_hit, 2, 0.7, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
 		my_sprites[$ "Lock"				] = anim_define_ext(spr_crow_hit, 0, 0.5, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
@@ -321,12 +321,12 @@ function character_crow_init()
 		my_sprites[$ "Wall_Cling"		] = -1;
 		my_sprites[$ "Wall_Jump"		] = spr_crow_jump;
 	
-		my_sprites[$ "Star_KO"			] = spr_basic_star_ko;
+		my_sprites[$ "Star_KO"			] = spr_crow_hit;
 		my_sprites[$ "Screen_KO"		] = spr_crow_screenko;
 				 
 		my_sprites[$ "Grabbing"			] = spr_basic_grabbing;
 		my_sprites[$ "Grabbed"			] = spr_crow_hit;
-		my_sprites[$ "Grab_Release"		] = anim_define(spr_colt_crouch, anim_define(spr_colt_HUD));
+		my_sprites[$ "Grab_Release"		] = anim_define(spr_crow_crouch, anim_define(spr_crow_hud));
 		}
 	}
 /* Copyright 2025 Springroll Games / Yosi */

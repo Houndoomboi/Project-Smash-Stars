@@ -40,6 +40,7 @@ function El_Primo_Jab()
 					var _hitbox = hitbox_create_melee(20, 0, 0.5, 0.3, 2, 4, 0, 2, 75, 4, SHAPE.circle, 0);
 					_hitbox.knockback_state = PLAYER_STATE.flinch;
 					_hitbox.can_be_parried = false;
+					game_sound_play(prng_choose(1,Fist_Vfx, snd_hit_wind));
 					_hitbox.custom_hitstun = 13;
 					_hitbox.can_lock = true;
 					}

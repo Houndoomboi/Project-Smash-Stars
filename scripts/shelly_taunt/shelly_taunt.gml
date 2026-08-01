@@ -34,7 +34,7 @@ function shelly_taunt()
 				//Sound
 				if (attack_frame == 52)
 					{
-					game_sound_play(BlingBling);
+					game_sound_play(prng_choose(1, BlingBling, Shelly_Haha, Asimigusta));
 					}
 			
 				//Taunt canceling

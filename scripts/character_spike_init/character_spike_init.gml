@@ -283,7 +283,7 @@ function character_spike_init()
 		my_sprites[$ "Rolling"			] = spr_spike_airdodge;
 		my_sprites[$ "Shield"			] = anim_define(spr_spike_block, anim_define(spr_spike_block_loop));
 		my_sprites[$ "Shield_Release"	] = spr_spike_block_loop;
-		my_sprites[$ "Shield_Break"		] = anim_define_ext(spr_basic_shield_break, 0, 0.12, 1, 0, 1, 0, 0, true, -1);
+		my_sprites[$ "Shield_Break"		] = anim_define_ext(spr_spike_hurt, 0, 0.12, 1, 0, 1, 0, 0, true, -1);
 		my_sprites[$ "Parry_Stun"		] = spr_basic_parry_stun;
 		my_sprites[$ "Spot_Dodge"		] = spr_spike_airdodge;
 		my_sprites[$ "Bury"				] = spr_colt_bury
@@ -309,16 +309,16 @@ function character_spike_init()
 				 
 		my_sprites[$ "Ledge_Snap"		] = spr_spike_ledge;
 		my_sprites[$ "Ledge_Hang"		] = spr_spike_ledge;
-		my_sprites[$ "Ledge_Getup"		] = spr_basic_ledge_getup;
-		my_sprites[$ "Ledge_Jump"		] = spr_basic_ledge_jump;
-		my_sprites[$ "Ledge_Roll"		] = spr_basic_ledge_jump;
-		my_sprites[$ "Ledge_Attack"		] = spr_basic_ledge_attack_getup;
+		my_sprites[$ "Ledge_Getup"		] = spr_spike_idle;
+		my_sprites[$ "Ledge_Jump"		] = spr_spike_jump;
+		my_sprites[$ "Ledge_Roll"		] = spr_spike_weakair;
+		my_sprites[$ "Ledge_Attack"		] = spr_spike_strong;
 		my_sprites[$ "Ledge_Tether"		] = anim_define_ext(spr_basic_ledge_tether, 0, 0.3, 1, 0, 1, 0, 16, true, -1);
 		my_sprites[$ "Ledge_Trump"		] = spr_basic_ledge_trump;
 		my_sprites[$ "Wall_Cling"		] = -1;
-		my_sprites[$ "Wall_Jump"		] = spr_basic_wall_jump;
+		my_sprites[$ "Wall_Jump"		] = spr_spike_jump;
 	
-		my_sprites[$ "Star_KO"			] = spr_basic_star_ko;
+		my_sprites[$ "Star_KO"			] = spr_spike_hurt;
 		my_sprites[$ "Screen_KO"		] = spr_spike_screenko;
 				 
 		my_sprites[$ "Grabbing"			] = spr_basic_grabbing;

@@ -282,12 +282,12 @@ function character_shelly_init()
 		my_sprites[$ "DFastfall"		] = -1;
 				 
 		my_sprites[$ "Airdodge"			] = anim_define_ext(spr_shelly_dodge, 0, anim_calculate_speed(spr_basic_airdodge, airdodge_startup + airdodge_active + airdodge_endlag));
-		my_sprites[$ "Waveland"			] = spr_basic_waveland;
+		my_sprites[$ "Waveland"			] = spr_shelly_crouchstart;
 		my_sprites[$ "Rolling"			] = spr_shelly_dodge;
 		my_sprites[$ "Shield"			] = anim_define(spr_shelly_shield, anim_define(spr_shelly_shield));
 		my_sprites[$ "Shield_Release"	] = spr_shelly_idle;
 		my_sprites[$ "Shield_Break"		] = anim_define_ext(spr_shelly_shieldbreak, 0, 0.12, 1, 0, 1, 0, 0, true, -1);
-		my_sprites[$ "Parry_Stun"		] = spr_basic_parry_stun;
+		my_sprites[$ "Parry_Stun"		] = spr_shelly_shieldbreak;
 		my_sprites[$ "Spot_Dodge"		] = spr_shelly_dodge;
 		my_sprites[$ "Bury"				] = spr_colt_bury;
 				 
@@ -298,7 +298,7 @@ function character_shelly_init()
 		my_sprites[$ "Magnet"			] = spr_shelly_fall;
 		my_sprites[$ "Flinch"			] = spr_shelly_hit;
 		my_sprites[$ "Landing_Lag"		] = spr_shelly_idle;
-		my_sprites[$ "Balloon"			] = spr_basic_balloon;
+		my_sprites[$ "Balloon"			] = spr_shelly_hit;
 		my_sprites[$ "Reeling"			] = spr_shelly_hit;
 		my_sprites[$ "Knockdown"		] = anim_define_ext(spr_shelly_hit, 2, 0.7, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
 		my_sprites[$ "Lock"				] = anim_define_ext(spr_shelly_hit, 0, 0.5, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
@@ -317,11 +317,11 @@ function character_shelly_init()
 		my_sprites[$ "Ledge_Roll"		] = spr_shelly_dodge;
 		my_sprites[$ "Ledge_Attack"		] = spr_shelly_strong;
 		my_sprites[$ "Ledge_Tether"		] = anim_define_ext(spr_basic_ledge_tether, 0, 0.3, 1, 0, 1, 0, 16, true, -1);
-		my_sprites[$ "Ledge_Trump"		] = spr_basic_ledge_trump;
+		my_sprites[$ "Ledge_Trump"		] = spr_shelly_ledge;
 		my_sprites[$ "Wall_Cling"		] = -1;
 		my_sprites[$ "Wall_Jump"		] = spr_shelly_walljump;
 	
-		my_sprites[$ "Star_KO"			] = spr_basic_star_ko;
+		my_sprites[$ "Star_KO"			] = spr_shelly_hit;
 		my_sprites[$ "Screen_KO"		] = spr_shelly_screenko;
 				 
 		my_sprites[$ "Grabbing"			] = spr_basic_grabbing;
