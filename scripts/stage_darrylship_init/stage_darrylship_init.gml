@@ -9,6 +9,9 @@ function stage_darrylship_init()
 	//Background sprites
 	background = 
 		[
+		background_define_script(spr_darryl_skybox, 0, 0, 1, 0, 0, 0, 0, false, 0),
+		background_define_script(spr_darryl_land, 0, 0, 1, .5, .5, 0, 0, false, 0),
+		background_define_script(spr_darryl_water, 0, 0, 1, .5, .5, 0, 0, false, 0),
 		back_clear,
 		];
 	
