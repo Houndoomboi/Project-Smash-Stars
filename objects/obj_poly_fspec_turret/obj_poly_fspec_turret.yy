@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
-    "path":"folders/Characters/Polygon/Objects.yy",
+    "path":"folders/Characters/Disabled Characters/Polygon/Objects.yy",
   },
   "parentObjectId":{
     "name":"obj_entity",

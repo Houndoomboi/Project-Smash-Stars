@@ -6,7 +6,7 @@
   "name":"character_poly_init",
   "parent":{
     "name":"Polygon",
-    "path":"folders/Characters/Polygon.yy",
+    "path":"folders/Characters/Disabled Characters/Polygon.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

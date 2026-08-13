@@ -6,7 +6,7 @@
   "name":"scalar_grab",
   "parent":{
     "name":"Scripts",
-    "path":"folders/Characters/Scalar/Attacks/Scripts.yy",
+    "path":"folders/Characters/Disabled Characters/Scalar/Attacks/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

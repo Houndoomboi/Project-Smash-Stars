@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Sprites",
-    "path":"folders/Characters/Polygon/Sprites.yy",
+    "path":"folders/Characters/Disabled Characters/Polygon/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

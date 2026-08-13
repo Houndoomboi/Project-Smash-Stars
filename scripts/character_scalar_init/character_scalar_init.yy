@@ -6,7 +6,7 @@
   "name":"character_scalar_init",
   "parent":{
     "name":"Scalar",
-    "path":"folders/Characters/Scalar.yy",
+    "path":"folders/Characters/Disabled Characters/Scalar.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

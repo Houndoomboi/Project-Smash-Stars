@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
-    "path":"folders/Characters/Radian/Objects.yy",
+    "path":"folders/Characters/Disabled Characters/Radian/Objects.yy",
   },
   "parentObjectId":{
     "name":"obj_hitbox_projectile",

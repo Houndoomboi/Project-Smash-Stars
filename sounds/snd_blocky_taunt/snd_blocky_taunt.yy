@@ -15,7 +15,7 @@
   "name":"snd_blocky_taunt",
   "parent":{
     "name":"Sounds",
-    "path":"folders/Characters/Blocky/Attacks/Sounds.yy",
+    "path":"folders/Characters/Disabled Characters/Blocky/Attacks/Sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

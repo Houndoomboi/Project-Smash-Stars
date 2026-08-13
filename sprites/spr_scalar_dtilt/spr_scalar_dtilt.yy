@@ -32,7 +32,7 @@
   "origin":9,
   "parent":{
     "name":"Sprites",
-    "path":"folders/Characters/Scalar/Attacks/Sprites.yy",
+    "path":"folders/Characters/Disabled Characters/Scalar/Attacks/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

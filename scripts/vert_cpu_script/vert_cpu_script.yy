@@ -6,7 +6,7 @@
   "name":"vert_cpu_script",
   "parent":{
     "name":"Scripts",
-    "path":"folders/Characters/Vertex/Scripts.yy",
+    "path":"folders/Characters/Disabled Characters/Vertex/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

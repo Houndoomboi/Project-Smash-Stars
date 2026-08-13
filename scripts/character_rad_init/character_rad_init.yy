@@ -6,7 +6,7 @@
   "name":"character_rad_init",
   "parent":{
     "name":"Radian",
-    "path":"folders/Characters/Radian.yy",
+    "path":"folders/Characters/Disabled Characters/Radian.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

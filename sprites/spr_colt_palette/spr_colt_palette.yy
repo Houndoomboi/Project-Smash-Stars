@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Sprites",
-    "path":"folders/Characters/Vertex/Sprites.yy",
+    "path":"folders/Characters/Disabled Characters/Vertex/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

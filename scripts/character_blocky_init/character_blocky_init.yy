@@ -6,7 +6,7 @@
   "name":"character_blocky_init",
   "parent":{
     "name":"Blocky",
-    "path":"folders/Characters/Blocky.yy",
+    "path":"folders/Characters/Disabled Characters/Blocky.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

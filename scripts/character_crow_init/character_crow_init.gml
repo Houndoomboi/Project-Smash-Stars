@@ -59,7 +59,7 @@ function character_crow_init()
 		jostle_strength = jostle_strength_default;
 	
 		//Walking
-		walk_speed = 5.25;
+		walk_speed = 7.5;
 		walk_accel = 0.5;
 		walk_turn_time = 6;
 	

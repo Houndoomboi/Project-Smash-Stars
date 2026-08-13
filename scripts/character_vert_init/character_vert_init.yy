@@ -6,7 +6,7 @@
   "name":"character_vert_init",
   "parent":{
     "name":"Vertex",
-    "path":"folders/Characters/Vertex.yy",
+    "path":"folders/Characters/Disabled Characters/Vertex.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

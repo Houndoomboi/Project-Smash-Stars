@@ -15,7 +15,7 @@
   "name":"snd_rad_taunt",
   "parent":{
     "name":"Sounds",
-    "path":"folders/Characters/Radian/Attacks/Sounds.yy",
+    "path":"folders/Characters/Disabled Characters/Radian/Attacks/Sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

@@ -2,10 +2,10 @@
   "$GMSprite":"v2",
   "%Name":"spr_nita_hurtbox",
   "bboxMode":0,
-  "bbox_bottom":58,
-  "bbox_left":0,
-  "bbox_right":49,
-  "bbox_top":0,
+  "bbox_bottom":53,
+  "bbox_left":7,
+  "bbox_right":42,
+  "bbox_top":5,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -70,7 +70,7 @@
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"92380b57-6d0e-4a17-b128-e0ca288cd857","path":"sprites/spr_nita_hurtbox/spr_nita_hurtbox.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ff1aa820-b219-41d0-803f-254d99dc25b8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"97f9f05b-8df1-4e5e-8707-964487da2738","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

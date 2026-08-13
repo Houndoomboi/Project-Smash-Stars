@@ -40,7 +40,7 @@
   "origin":9,
   "parent":{
     "name":"Sprites",
-    "path":"folders/Characters/Radian/Attacks/Sprites.yy",
+    "path":"folders/Characters/Disabled Characters/Radian/Attacks/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

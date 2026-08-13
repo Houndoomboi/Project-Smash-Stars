@@ -6,7 +6,7 @@
   "name":"blocky_usmash",
   "parent":{
     "name":"Scripts",
-    "path":"folders/Characters/Blocky/Attacks/Scripts.yy",
+    "path":"folders/Characters/Disabled Characters/Blocky/Attacks/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

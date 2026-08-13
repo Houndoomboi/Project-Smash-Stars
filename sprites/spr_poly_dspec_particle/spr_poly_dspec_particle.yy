@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Sprites",
-    "path":"folders/Characters/Polygon/Attacks/Sprites.yy",
+    "path":"folders/Characters/Disabled Characters/Polygon/Attacks/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

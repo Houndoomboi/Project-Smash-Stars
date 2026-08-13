@@ -6,7 +6,7 @@
   "name":"poly_cpu_script",
   "parent":{
     "name":"Scripts",
-    "path":"folders/Characters/Polygon/Scripts.yy",
+    "path":"folders/Characters/Disabled Characters/Polygon/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -6,7 +6,7 @@
   "name":"rad_cpu_script",
   "parent":{
     "name":"Scripts",
-    "path":"folders/Characters/Radian/Scripts.yy",
+    "path":"folders/Characters/Disabled Characters/Radian/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

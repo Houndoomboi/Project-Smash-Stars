@@ -6,7 +6,7 @@
   "name":"rad_dspec_hurtbox_hit",
   "parent":{
     "name":"Scripts",
-    "path":"folders/Characters/Radian/Attacks/Scripts.yy",
+    "path":"folders/Characters/Disabled Characters/Radian/Attacks/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

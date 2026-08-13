@@ -6,7 +6,7 @@
   "name":"scalar_passive",
   "parent":{
     "name":"Scripts",
-    "path":"folders/Characters/Scalar/Scripts.yy",
+    "path":"folders/Characters/Disabled Characters/Scalar/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

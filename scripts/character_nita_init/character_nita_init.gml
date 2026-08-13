@@ -59,7 +59,7 @@ function character_nita_init()
 		jostle_strength = jostle_strength_default;
 	
 		//Walking
-		walk_speed = 3.25;
+		walk_speed = 8;
 		walk_accel = 0.5;
 		walk_turn_time = 6;
 	
@@ -69,7 +69,7 @@ function character_nita_init()
 		dash_accel = 8;
 	
 		//Running
-		run_speed = 7.5;
+		run_speed = 8;
 		run_accel = 0.8;
 		run_turn_time = 5;
 		run_turn_accel = 1;
@@ -228,18 +228,18 @@ function character_nita_init()
 	//Attacks
 	if (_set_attacks)
 		{
-		my_attacks[$ "Jab"			] = colt_jab;
+		my_attacks[$ "Jab"			] = nita_jab;
 				 
-		my_attacks[$ "Fsmash"		] = colt_groundstrong;
+		my_attacks[$ "Fsmash"		] = nita_strong;
 				 
-		my_attacks[$ "Nair"			] = colt_airlight;
-		my_attacks[$ "Dair"			] = colt_airstrong;
+		my_attacks[$ "Nair"			] = nita_airlight;
+		my_attacks[$ "Dair"			] = nita_strongair;
 				 
-		my_attacks[$ "Nspec"		] = colt_special;
-		my_attacks[$ "Uspec"		] = colt_airspecial;
+		my_attacks[$ "Nspec"		] = nita_groundspecial;
+		my_attacks[$ "Uspec"		] = nita_airspecial;
 				 
-		my_attacks[$ "Grab"			] = colt_grab;
-		my_attacks[$ "Dash_Grab"	] = colt_grab;
+		my_attacks[$ "Grab"			] = nita_grab;
+		my_attacks[$ "Dash_Grab"	] = nita_grab;
 		my_attacks[$ "Pummel"		] = basic_pummel;
 		my_attacks[$ "Zair"			] = -1;
 				 
@@ -248,8 +248,8 @@ function character_nita_init()
 		my_attacks[$ "Uthrow"		] = basic_uthrow_combo;
 		my_attacks[$ "Dthrow"		] = basic_dthrow_combo;
 		
-		my_attacks[$ "Getup_Attack"	] = colt_jab;
-		my_attacks[$ "Ledge_Attack"	] = colt_jab;
+		my_attacks[$ "Getup_Attack"	] = nita_strong;
+		my_attacks[$ "Ledge_Attack"	] = nita_strong;
 		my_attacks[$ "Item_Throw"	] = basic_item_throw;
 		my_attacks[$ "Item_Attack"	] = basic_item_attack;
 		my_attacks[$ "Taunt"		] = colt_taunt;

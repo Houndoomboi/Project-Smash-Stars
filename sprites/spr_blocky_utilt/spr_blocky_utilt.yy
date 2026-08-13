@@ -33,7 +33,7 @@
   "origin":9,
   "parent":{
     "name":"Sprites",
-    "path":"folders/Characters/Blocky/Attacks/Sprites.yy",
+    "path":"folders/Characters/Disabled Characters/Blocky/Attacks/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
