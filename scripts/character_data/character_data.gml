@@ -76,6 +76,34 @@ function character_data_get_all()
 			["texture_character_shelly", "texture_character_basic"],
 			//shelly_cpu_script,
 			),
+			character_define
+			(
+			"Nita",
+			character_nita_init,
+			spr_nita_palette,
+			spr_nita_portrait,
+			spr_nita_portrait,
+			spr_crow_hud,
+			spr_nita_stockicon,
+			spr_nita_portrait,
+			song_default_victory,
+			["texture_character_shelly", "texture_character_basic"],
+			//shelly_cpu_script,
+			),
+			character_define
+			(
+			"Mortis",
+			character_mortis_init,
+			spr_crow_palette,
+			spr_mortis_portrait,
+			spr_mortis_portrait,
+			spr_crow_hud,
+			spr_mortis_stockicon,
+			spr_mortis_portrait,
+			song_default_victory,
+			["texture_character_shelly", "texture_character_basic"],
+			//shelly_cpu_script,
+			),
 		character_define
 			(
 			"Random",

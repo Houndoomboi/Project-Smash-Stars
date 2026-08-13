@@ -9,6 +9,11 @@ function stage_primoring_init()
 	//Background sprites
 	background = 
 		[
+		background_define_script(spr_ring_skybox, 0, 0, 1, 0, 0, 0, 0, false, 0),
+		background_define_script(spr_ring_moon, 0, 0, 1, 0, 0, 0, 0, false, 0),
+		background_define_script(spr_ring_stars, 0, 0, 1, .3, .3, 0, 0, false, 0),
+		background_define_script(spr_ring_cityblock, 0, 0, 1, .6, .6, 0, 0, false, 0),
+		background_define_script(spr_ring_town, 0, 0, 1, .7, .7, 0, 0, false, 0),
 		back_clear,
 		];
 	
