@@ -22,7 +22,6 @@ function nita_strong()
 				anim_sprite = spr_nita_groundstrong;
 				anim_speed = 0;
 				anim_frame = 0;
-				sprite_scale = 2;
 				attack_frame = 14;
 				return;
 				}

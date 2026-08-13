@@ -21,7 +21,6 @@ function nita_grab()
 				anim_sprite = spr_nita_grab;
 				anim_speed = 0;
 				anim_frame = 0;
-				sprite_scale = 2;
 				attack_frame = 8;
 				
 				reverse_b();
@@ -102,6 +101,7 @@ function nita_grab()
 				
 				if (attack_frame == 0)
 					{
+					sprite_scale = 1;
 					attack_stop();
 					}
 				break;

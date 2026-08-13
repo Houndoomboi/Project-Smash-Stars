@@ -18,7 +18,7 @@ function character_nita_init()
 	if (_set_properties)
 		{
 		//Collision box
-		collision_box = spr_shelly_collision_box;
+		collision_box = spr_nita_hurtbox;
 	
 		//Hurtbox
 		hurtbox_sprite = spr_nita_hurtbox;
@@ -37,10 +37,10 @@ function character_nita_init()
 	
 		//Jumping
 		jumpsquat_time = 3;
-		jump_speed = 8;
+		jump_speed = 12;
 		jump_horizontal_accel = 3;
 		shorthop_speed = 6.5;
-		double_jump_speed = 10.5;
+		double_jump_speed = 14;
 		double_jump_horizontal_accel = 2;
 		max_double_jumps = 1;
 		land_time = 4;

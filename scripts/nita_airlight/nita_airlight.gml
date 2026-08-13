@@ -15,9 +15,7 @@ function nita_airlight()
 	aerial_drift();
 	allow_hitfall();
 	//Cancels
-	if (run && cancel_ground_check()) then 
-	sprite_scale = 1;
-	run = false;
+	if (run && cancel_ground_check()) then run = false;
 	//Main Phases
 	if (run)
 		{
@@ -29,7 +27,6 @@ function nita_airlight()
 				anim_sprite = spr_nita_weakair;
 				anim_speed = 0;
 				anim_frame = 0;
-				sprite_scale = 2;
 				landing_lag = 8;
 				attack_frame = 8;
 				speed_set(0, -1, true, true);

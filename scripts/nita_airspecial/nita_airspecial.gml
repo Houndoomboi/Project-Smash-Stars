@@ -18,7 +18,6 @@ function nita_airspecial()
 				anim_frame = 0;
 				anim_sprite = spr_nita_airspecial;
 				anim_speed = 0;
-				sprite_scale = 2;
 				parry_stun_time = 60;
 				attack_frame = 8;
 				landing_lag = 15;

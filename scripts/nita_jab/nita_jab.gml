@@ -23,7 +23,7 @@ function nita_jab()
 				anim_sprite = spr_nita_groundlight;
 				anim_speed = 0;
 				anim_frame = 0;
-				sprite_scale = 2;
+		
 				attack_frame = 5;
 				return;
 				}
@@ -158,7 +158,6 @@ function nita_jab()
 				{
 				if (attack_frame == 0)
 					{
-					sprite_scale = 1;
 					attack_stop(PLAYER_STATE.idle);
 					}
 				break;
