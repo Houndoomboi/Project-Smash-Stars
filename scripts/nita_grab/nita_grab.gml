@@ -67,6 +67,7 @@ function nita_grab()
 						_vfx.vfx_xscale = 2 * facing;
 						}
 					game_sound_play(snd_swing3);
+					game_sound_play(Nita_Hurt_2);
 					}
 				break;
 				}

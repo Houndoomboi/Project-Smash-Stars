@@ -21,7 +21,7 @@ function nita_groundspecial()
 			case PHASE.start:
 				{
 				//Animation
-				anim_sprite = spr_nita_idle;
+				anim_sprite = spr_nita_special_call;
 				anim_frame = 0;
 
 		
@@ -30,6 +30,7 @@ function nita_groundspecial()
 				reverse_b();
 				return;
 				}
+				
 			//Startup -> Throw
 			case 0:
 				{
@@ -70,15 +71,15 @@ function nita_groundspecial()
 				//Projectile
 				if (attack_frame == 32){
 					
-	
-					var _proj = hitbox_create_projectile(32, 8, 0.4, 0.4, 14, 6, 1, 0, 30, SHAPE.circle, 16, 0);
+	                var _damage = calculate_smash_damage(16);
+					var _proj = hitbox_create_projectile(32, 8, 0.4, 0.4, _damage, 6, 1, 0, 20, SHAPE.circle, 20, 0);
 					_proj.bounce_multiplier = 0;
 					_proj.destroy_on_blocks = true;
 					_proj.grav = 0;
 					_proj.overlay_facing = facing;
 					_proj.overlay_sprite = spr_bruce_roll;
-
 					_proj.base_hitlag = 5;
+					game_sound_play(Nita_bear);
 					_proj.hit_vfx_style = HIT_VFX.normal_weak;
 					
 					//Cooldown

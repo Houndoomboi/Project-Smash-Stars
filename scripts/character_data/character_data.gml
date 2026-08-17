@@ -94,7 +94,7 @@ function character_data_get_all()
 			(
 			"Mortis",
 			character_mortis_init,
-			spr_crow_palette,
+			spr_mortis_palette,
 			spr_mortis_portrait,
 			spr_mortis_portrait,
 			spr_crow_hud,

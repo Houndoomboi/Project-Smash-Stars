@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Characters/Disabled Characters/Vertex/Sprites.yy",
+    "name":"El Primo",
+    "path":"folders/Characters/El Primo.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

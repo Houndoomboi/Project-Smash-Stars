@@ -213,7 +213,7 @@ function character_nita_init()
 		callback_add(callback_passive, bayonetta_fspec_afterburner_passive, CALLBACK_TYPE.permanent);
 		
 		draw_script = -1;
-		callback_add(callback_hurt, ColtVoicelines_Hurt, CALLBACK_TYPE.permanent);
+		callback_add(callback_hurt, NitaVoicelines_Hurt, CALLBACK_TYPE.permanent);
 		}
 
 	//States
@@ -252,7 +252,7 @@ function character_nita_init()
 		my_attacks[$ "Ledge_Attack"	] = nita_strong;
 		my_attacks[$ "Item_Throw"	] = basic_item_throw;
 		my_attacks[$ "Item_Attack"	] = basic_item_attack;
-		my_attacks[$ "Taunt"		] = colt_taunt;
+		my_attacks[$ "Taunt"		] = nita_taunt;
 		my_attacks[$ "Final_Smash"	] = blocky_final_smash;
 		}
 		
@@ -273,7 +273,7 @@ function character_nita_init()
 				 
 		my_sprites[$ "Jumpsquat"		] = spr_nita_crouch;
 		my_sprites[$ "Jump_Rise"		] = spr_nita_jump;
-		my_sprites[$ "Jump_Mid"			] = spr_nita_jump;
+		my_sprites[$ "Jump_Mid"			] = spr_nita_fall;
 		my_sprites[$ "Jump_Fall"		] = spr_nita_fall;
 		my_sprites[$ "Fastfall"			] = spr_nita_fall;
 		my_sprites[$ "DJump_Rise"		] = anim_define(spr_nita_jump, anim_define(spr_nita_jump));

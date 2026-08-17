@@ -84,6 +84,7 @@ function nita_airspecial()
 					var _hitbox = hitbox_create_melee(50, -12, 1.2, 0.7, 4, 5, 0, 4, 90, 7, SHAPE.square, 1);
 					_hitbox.hit_vfx_style = [HIT_VFX.slash_medium, HIT_VFX.normal_weak];
 					_hitbox.hit_sfx = snd_hit_weak1;
+					game_sound_play(Bruce_Growl);
 					_hitbox.force_reeling = true;
 					_hitbox.custom_hitstun = 25;
 					_hitbox.drift_di_multiplier = 0;
