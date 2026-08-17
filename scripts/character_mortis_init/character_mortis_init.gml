@@ -228,18 +228,18 @@ function character_mortis_init()
 	//Attacks
 	if (_set_attacks)
 		{
-		my_attacks[$ "Jab"			] = colt_jab;
+		my_attacks[$ "Jab"			] = mortis_lightground
 				 
-		my_attacks[$ "Fsmash"		] = colt_groundstrong;
+		my_attacks[$ "Fsmash"		] = mortis_gstrong;
 				 
 		my_attacks[$ "Nair"			] = colt_airlight;
 		my_attacks[$ "Dair"			] = colt_airstrong;
 				 
-		my_attacks[$ "Nspec"		] = colt_special;
-		my_attacks[$ "Uspec"		] = colt_airspecial;
+		my_attacks[$ "Nspec"		] = mortis_groundspecial;
+		my_attacks[$ "Uspec"		] = mortis_airspec;
 				 
-		my_attacks[$ "Grab"			] = colt_grab;
-		my_attacks[$ "Dash_Grab"	] = colt_grab;
+		my_attacks[$ "Grab"			] = mortis_grab;
+		my_attacks[$ "Dash_Grab"	] = mortis_grab;
 		my_attacks[$ "Pummel"		] = basic_pummel;
 		my_attacks[$ "Zair"			] = -1;
 				 
