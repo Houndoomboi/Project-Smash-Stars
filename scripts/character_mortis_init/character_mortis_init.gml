@@ -230,7 +230,7 @@ function character_mortis_init()
 		{
 		my_attacks[$ "Jab"			] = mortis_lightground
 				 
-		my_attacks[$ "Fsmash"		] = mortis_gstrong;
+		my_attacks[$ "Fsmash"		] = mortis_groundstrong;
 				 
 		my_attacks[$ "Nair"			] = colt_airlight;
 		my_attacks[$ "Dair"			] = colt_airstrong;

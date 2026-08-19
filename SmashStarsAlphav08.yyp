@@ -257,7 +257,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2026.0.0.16",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"SmashStarsAlphav08",
   "resources":[
@@ -1055,6 +1055,7 @@
     {"id":{"name":"mortis_airspec","path":"scripts/mortis_airspec/mortis_airspec.yy",},},
     {"id":{"name":"mortis_grab","path":"scripts/mortis_grab/mortis_grab.yy",},},
     {"id":{"name":"mortis_groundspecial","path":"scripts/mortis_groundspecial/mortis_groundspecial.yy",},},
+    {"id":{"name":"mortis_groundstrong","path":"scripts/mortis_groundstrong/mortis_groundstrong.yy",},},
     {"id":{"name":"mortis_gstrong","path":"scripts/mortis_gstrong/mortis_gstrong.yy",},},
     {"id":{"name":"mortis_lightground","path":"scripts/mortis_lightground/mortis_lightground.yy",},},
     {"id":{"name":"move_against_slope_x","path":"scripts/move_against_slope_x/move_against_slope_x.yy",},},
